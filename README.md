@@ -7,8 +7,51 @@ Projek Akhir Praktikum Sistem Basis Data &amp; Pemrograman Berorientasi Objek Se
 
 Aplikasi FINCARE adalah aplikasi yang dirancang untuk mendukung inklusi keuangan masyarakat melalui sistem digital yang transparan dan terintegrasi. FINCARE membantu pengguna dalam mengelola proses pengajuan bantuan keuangan, pelatihan, sertifikasi, hingga pencairan insentif secara efisien. Aplikasi ini tidak hanya berfungsi sebagai pengelola data bantuan, tetapi juga menjadi sarana pemberdayaan dengan menyediakan akses pelatihan finansial yang inklusif dan berkelanjutan.
 
-# 💰DESKRIPSI SINGKAT FINCARE
+# 💰Deskripsi Singkat Program
 
 FINCARE merupakan aplikasi yang menghadirkan solusi digital dalam pengelolaan bantuan keuangan dan pelatihan masyarakat. Melalui sistem yang terintegrasi, FINCARE memudahkan proses verifikasi, pelatihan, sertifikasi, hingga pencairan insentif secara transparan dan efisien untuk mendukung inklusi keuangan yang berkelanjutan.
 
-# ⚙️FITUR-FITUR FINCARE
+# 💡Fitur-fitur program
+
+Aplikasi FINCARE memiliki dua jenis peran utama, yaitu Admin dan Pengguna, yang masing-masing memiliki fitur berbeda sesuai tanggung jawabnya.
+
+## 💫Fitur Admin
+
+Admin berperan dalam mengelola sistem serta memverifikasi seluruh proses bantuan dan pelatihan. Fitur yang tersedia untuk admin meliputi:
+
+**1. Kelola Pelatihan**
+
+Admin dapat membuat, mengedit, dan menghapus data pelatihan seperti jadwal, lembaga penyelenggara, serta biaya pelatihan. Tujuannya agar program pelatihan selalu terupdate dan relevan bagi pengguna.
+
+**2. Verifikasi Pengajuan**
+
+Fitur untuk memeriksa dan memvalidasi permohonan bantuan dari pengguna. Admin dapat menentukan status pengajuan — menunggu, diterima, atau ditolak.
+
+**3. Verifikasi Sertifikat**
+
+Admin melakukan pemeriksaan keabsahan sertifikat pelatihan yang diunggah pengguna sebelum dinyatakan valid. Hal ini memastikan sertifikat benar-benar berasal dari pelatihan resmi.
+
+**4. Daftar Insentif**
+
+Admin mengatur dan memverifikasi pencairan insentif kepada pengguna yang telah menyelesaikan pelatihan serta lolos verifikasi sertifikat.
+
+## 👤Fitur Pengguna
+
+Pengguna dapat mengakses berbagai layanan bantuan keuangan dan pelatihan secara daring melalui aplikasi. Fitur yang disediakan antara lain:
+
+**1. Ajukan Bantuan**
+
+Pengguna dapat mengajukan permohonan bantuan finansial dengan mengisi data serta alasan pengajuan secara digital.
+
+**2. Pilih Pelatihan**
+
+Fitur untuk memilih bidang pelatihan yang diminati sesuai kebutuhan peningkatan keterampilan (upskilling). Data ini juga menjadi acuan dalam pengajuan bantuan.
+
+**3. Upload Sertifikat**
+
+Setelah menyelesaikan pelatihan, pengguna dapat mengunggah sertifikat hasil pelatihan sebagai bukti partisipasi. Sertifikat ini nantinya diverifikasi oleh admin.
+
+**4. Lihat Insentif**
+
+Pengguna dapat memantau status pencairan insentif secara langsung, apakah masih menunggu, sudah diterima, atau ditolak.
+
