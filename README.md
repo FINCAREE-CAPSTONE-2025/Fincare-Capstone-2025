@@ -143,5 +143,30 @@ Halaman Lihat Insentif berfungsi untuk menampilkan data pencairan bantuan atau i
 
 <img width="1591" height="1245" alt="image" src="https://github.com/user-attachments/assets/73969a28-cda6-42c2-a625-c4d79adac9a7" />
 
+### Login Admin
+
+Halaman Login Admin memiliki tampilan yang serupa dengan login pengguna, namun berfungsi khusus untuk memberikan akses kepada pihak admin dalam mengelola sistem FINCARE. Admin memasukkan email dan password yang telah terdaftar pada database, dan setelah berhasil diverifikasi, sistem akan menampilkan pesan sambutan seperti “Halo Admin [nama admin]” sebagai tanda login berhasil. Melalui login ini, admin akan diarahkan ke dashboard khusus yang berisi fitur-fitur pengelolaan, seperti verifikasi pengajuan bantuan, pengelolaan data pelatihan, sertifikat, hingga pencairan insentif.
+
+<img width="1590" height="1242" alt="image" src="https://github.com/user-attachments/assets/76d8890f-2d92-40ed-9d36-4dcd3cf6c573" />
+
+### Halaman Home Admin
+
+Halaman Home Admin merupakan pusat kendali bagi administrator dalam sistem FINCARE. Setelah berhasil login, admin akan diarahkan ke halaman ini yang menampilkan empat fitur utama, yaitu Kelola Pelatihan, Verifikasi Pengajuan, Verifikasi Sertifikat, dan Daftar Insentif. Melalui fitur-fitur tersebut, admin dapat melakukan pengelolaan data pelatihan, memverifikasi pengajuan bantuan dari pengguna, memastikan keabsahan sertifikat pelatihan, serta mengatur daftar dan pencairan insentif. Selain itu, terdapat tombol Log Out di pojok kanan atas yang memungkinkan admin keluar dari sistem dengan aman.
+
+<img width="1594" height="1250" alt="image" src="https://github.com/user-attachments/assets/2be6121b-74df-4d24-a85e-c7889b1fabfd" />
+
+### Halaman Kelola Pelatihan Admin
+
+Halaman Kelola Pelatihan berfungsi sebagai tempat bagi admin untuk mengatur seluruh data pelatihan yang tersedia dalam sistem FINCARE. Pada halaman ini, admin dapat menambah, memperbarui, menghapus, dan menyegarkan (refresh) data pelatihan melalui form input yang mencakup judul pelatihan, lembaga pelatihan, periode pelaksanaan, dan harga pelatihan. Data pelatihan yang telah dimasukkan akan ditampilkan dalam tabel di bagian bawah halaman agar mudah dipantau dan dikelola. Selain itu, terdapat kolom pencarian di bagian atas yang memudahkan admin untuk menemukan pelatihan tertentu secara cepat.
+
+<img width="1566" height="1253" alt="image" src="https://github.com/user-attachments/assets/79285df9-1f05-4534-8326-da0db03a804d" />
+
+### Halaman Kelola Pelatihan (Create)
+
+Pada halaman Kelola Pelatihan (Create), admin dapat menambahkan data pelatihan baru ke dalam sistem FINCARE. Admin perlu mengisi beberapa kolom seperti Judul Pelatihan, Lembaga Pelatihan, Periode Pelaksanaan, dan Harga Pelatihan. Setelah semua data terisi dengan benar, admin menekan tombol “Tambah”, dan sistem akan otomatis menyimpan data pelatihan baru ke dalam database.
+
+Jika proses berhasil, akan muncul notifikasi “Pelatihan ditambahkan” sebagai tanda bahwa data baru telah tersimpan dengan sukses.
+
+<img width="1574" height="1238" alt="image" src="https://github.com/user-attachments/assets/fbb92782-73d8-4838-beb3-0d21bba580ac" />
 
 
