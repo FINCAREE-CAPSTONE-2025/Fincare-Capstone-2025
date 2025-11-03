@@ -261,6 +261,53 @@ Karena saldo pengguna lebih kecil dari harga pelatihan, sistem langsung menampil
 
 <img width="1583" height="1241" alt="image" src="https://github.com/user-attachments/assets/1f99c92d-9b95-4ceb-aac2-58a51ec58a44" />
 
+### Halaman Upload Sertifikat (Pengguna)
+
+Pada tampilan Upload Sertifikat ini, pengguna diberikan fitur untuk mengunggah sertifikat pelatihan yang telah diselesaikan sebagai bukti keikutsertaan dalam program. Halaman ini menampilkan kolom input berupa tautan (link) yang mengarah ke penyimpanan online seperti Google Drive, tempat sertifikat pengguna disimpan. Setelah memasukkan tautan tersebut, pengguna dapat menekan tombol “OK” untuk mengonfirmasi pengunggahan.
+
+<img width="1590" height="1242" alt="image" src="https://github.com/user-attachments/assets/5bc7d801-33fc-4956-8658-0d910c9cb9a5" />
+
+Pada tahap ini, setelah pengguna memilih pelatihan yang relevan dan memasukkan tautan sertifikat, sistem FINCARE menampilkan notifikasi bahwa “Link sertifikat di-upload. Menunggu verifikasi.”. Pesan ini menandakan bahwa proses unggah telah berhasil dan data sertifikat pengguna telah tersimpan di sistem untuk selanjutnya diverifikasi oleh admin.
+
+Setelah sertifikat diunggah, data tersebut akan otomatis tercatat dalam tabel dengan keterangan status awal “Menunggu Verifikasi” beserta tanggal upload. Status ini akan diperbarui oleh admin setelah melakukan pengecekan terhadap validitas tautan dan keaslian sertifikat yang dikirimkan.
+
+<img width="1586" height="1239" alt="image" src="https://github.com/user-attachments/assets/b4032688-1106-4191-a0d5-16a29062048e" />
+
+Pada tahap ini, setelah pengguna menekan tombol “KLIK LINK DISINI!” pada halaman Upload Sertifikat sebelumnya, sistem FINCARE akan otomatis membuka tautan yang telah diunggah pengguna ke dalam browser (seperti Google Chrome). Tautan tersebut mengarah langsung ke file sertifikat yang disimpan di Google Drive.
+
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/09efefaa-264f-4df3-8d81-9455c4cefa77" />
+
+Pada tahap ini, ketika pengguna mencoba untuk mengunggah sertifikat baru, sistem FINCARE menampilkan pesan peringatan bahwa masih ada sertifikat dengan status “MENUNGGU”. Pesan ini berarti proses verifikasi dari sertifikat sebelumnya belum selesai dilakukan oleh admin, sehingga pengguna tidak diperbolehkan melakukan upload sertifikat baru sebelum status verifikasi sebelumnya selesai.
+
+<img width="1593" height="1253" alt="image" src="https://github.com/user-attachments/assets/0e933fa3-27c6-42d8-a736-b016ffa4782f" />
+
+### Halaman Lihat Insentif Pengguna (Sebelum sertifikat diverifikasi oleh admin)
+
+Pada tampilan ini, ketika pengguna mencoba membuka menu Lihat Insentif, sistem menampilkan pesan peringatan “Pilih insentif dulu” karena belum ada data insentif yang dapat ditampilkan. Hal ini terjadi karena sertifikat pengguna belum diverifikasi dan diterima oleh admin, sehingga proses pencairan insentif belum dapat dilakukan.
+
+<img width="1592" height="1255" alt="image" src="https://github.com/user-attachments/assets/76133412-1be9-4d86-9800-cf29e5b5dd14" />
+
+### Halaman Verifikasi Sertifikat (Admin)
+
+Pada tampilan ini, halaman Verifikasi Sertifikat digunakan oleh admin untuk memeriksa dan memverifikasi sertifikat yang telah diunggah oleh pengguna. Admin dapat mencari data sertifikat berdasarkan nama atau status verifikasi, seperti “MENUNGGU” atau “DITERIMA”. Dalam contoh ini, terlihat bahwa pengguna bernama Lestari Kirei memiliki sertifikat dengan status MENUNGGU, menandakan bahwa sertifikat tersebut masih menunggu persetujuan admin.
+
+<img width="1585" height="1251" alt="image" src="https://github.com/user-attachments/assets/3e512c99-e239-433e-bfea-f77ad28dbf6f" />
+
+Pada tampilan ini, admin sedang melakukan proses verifikasi sertifikat pengguna yang sebelumnya berstatus MENUNGGU. Ketika admin menekan tombol DITERIMA, sistem menampilkan jendela konfirmasi yang berisi pesan bahwa jika sertifikat ditetapkan sebagai diterima, maka insentif sebesar Rp3.500.000 akan dibuat untuk pengguna tersebut. Proses konfirmasi ini berfungsi sebagai langkah validasi agar admin dapat memastikan keputusan verifikasi sebelum sistem otomatis menghasilkan data insentif.
+
+<img width="1582" height="1244" alt="image" src="https://github.com/user-attachments/assets/c35dffd7-7eb8-4c2a-8044-a34c89666a9e" />
+
+Pada tampilan ini, proses verifikasi sertifikat oleh admin telah berhasil diselesaikan. Setelah admin menekan tombol Yes pada konfirmasi sebelumnya, sistem menampilkan pesan “Berhasil diset DITERIMA. Insentif dibuat.” yang menandakan bahwa sertifikat pengguna telah resmi diverifikasi dan disetujui. Secara otomatis, sistem juga membuat data insentif baru bagi pengguna yang bersangkutan sebagai bentuk penghargaan atas keberhasilan menyelesaikan pelatihan.
+
+<img width="1588" height="1239" alt="image" src="https://github.com/user-attachments/assets/320901ea-efaa-42bc-9e38-6668d1be1226" />
+
+### Halaman Upload Sertifikat Pengguna (Setelah sertifikat diverifikasi oleh admin)
+
+Pada tampilan ini, pengguna kembali ke halaman Upload Sertifikat untuk melihat status sertifikat yang telah diunggah sebelumnya. Setelah melalui proses verifikasi oleh admin, kini status sertifikat berubah menjadi DITERIMA, menandakan bahwa sertifikat tersebut telah disetujui dan divalidasi oleh pihak admin.
+
+<img width="1589" height="1259" alt="image" src="https://github.com/user-attachments/assets/ffbfe9d0-6737-437b-a394-842ff00331fd" />
+
+### Halaman Lihat Insentif Pengguna (Setelah sertifikat diverifikasi oleh admin)
 
 
 
