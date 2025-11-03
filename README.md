@@ -68,13 +68,13 @@ Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programmi
 
 ## 🔀Flowchart & Usecase
 
-Tautan berikut menyajikan flowchart dan usecase diagram yang mendukung penjelasan konsep juga alur mengenai aplikasi kami.
-https://drive.google.com/file/d/1a9cG1KJgOj3enEn2uNvb2ZsSyagJywyZ/view?usp=sharing
+Tautan berikut menyajikan flowchart dan use case diagram yang menggambarkan alur sistem serta mendukung penjelasan konsep aplikasi FINCARE secara keseluruhan.
+🔗 Lihat Flowchart & Use Case
 
 ## 📑Slide Decks
 
 Tautan berikut menyajikan slide decks yang berisi poin-poin dari program kami.
-https://www.canva.com/design/DAG3PD6ZTUY/V8bZersN6UzInXkOJcB1xw/edit?utm_content=DAG3PD6ZTUY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+🔗 Lihat Slide Decks
 
 ## 📱Penjelasan Alur Program (Graphical User Interface / GUI)
 
