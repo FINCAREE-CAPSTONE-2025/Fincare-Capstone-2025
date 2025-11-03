@@ -3,7 +3,7 @@ Projek Akhir Praktikum Sistem Basis Data &amp; Pemrograman Berorientasi Objek Se
 
 # 💵✨APLIKASI FINCARE (FINANCIAL CARE)
 
-<img width="800" height="600" alt="Login" src="https://github.com/user-attachments/assets/72aadb72-aff1-48e0-bc0a-11d98ee9dc80" />
+<img width="1593" height="1243" alt="image" src="https://github.com/user-attachments/assets/77016d29-4188-4964-bc84-ccf5bfc179e9" />
 
 Aplikasi FINCARE adalah aplikasi yang dirancang untuk mendukung inklusi keuangan masyarakat melalui sistem digital yang transparan dan terintegrasi. FINCARE membantu pengguna dalam mengelola proses pengajuan bantuan keuangan, pelatihan, sertifikasi, hingga pencairan insentif secara efisien. Aplikasi ini tidak hanya berfungsi sebagai pengelola data bantuan, tetapi juga menjadi sarana pemberdayaan dengan menyediakan akses pelatihan finansial yang inklusif dan berkelanjutan.
 
@@ -55,19 +55,27 @@ Setelah menyelesaikan pelatihan, pengguna dapat mengunggah sertifikat hasil pela
 
 Pengguna dapat memantau status pencairan insentif secara langsung, apakah masih menunggu, sudah diterima, atau ditolak.
 
-## </> 5 Pillar Objek Oriented Programming
+# </> 5 Pillar Objek Oriented Programming
 
 Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programming / OOP) merupakan dasar dalam membangun sistem yang terstruktur dan mudah dikelola. Konsep ini membantu pengembang untuk membuat program yang efisien, aman, serta mudah dikembangkan di masa mendatang.
 
-## 🔀Flowchart & Usecase
+# 🔀Flowchart & Usecase
 
 Tautan berikut menyajikan flowchart dan usecase diagram yang mendukung penjelasan konsep juga alur mengenai aplikasi kami.
 https://drive.google.com/file/d/1a9cG1KJgOj3enEn2uNvb2ZsSyagJywyZ/view?usp=sharing
 
-## 📑Slide Decks
+# 📑Slide Decks
 
 Tautan berikut menyajikan slide decks yang berisi poin-poin dari program kami.
 https://www.canva.com/design/DAG3PD6ZTUY/V8bZersN6UzInXkOJcB1xw/edit?utm_content=DAG3PD6ZTUY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+# 📱Penjelasan Alur Program (Graphical User Interface / GUI)
+
+## Home Page / Halaman Utama
+
+Halaman Home FINCARE merupakan tampilan awal aplikasi yang berfungsi sebagai gerbang utama bagi pengguna untuk mengakses sistem. Pada halaman ini terdapat dua tombol utama, yaitu Login dan Registrasi.
+1. Login digunakan oleh pengguna atau admin yang sudah memiliki akun untuk masuk ke sistem dan mengelola data sesuai perannya.
+2. Registrasi berfungsi untuk pendaftaran akun baru, di mana pengguna dapat mengisi data diri untuk memperoleh akses ke sistem FINCARE, termasuk layanan pengajuan bantuan, pelatihan, dan verifikasi sertifikat.
 
 
 
