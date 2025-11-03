@@ -74,6 +74,7 @@ https://drive.google.com/file/d/1a9cG1KJgOj3enEn2uNvb2ZsSyagJywyZ/view?usp=shari
 ## 🗂️Slide Decks
 
 Tautan berikut berisi slide presentasi (slide decks) yang menampilkan ringkasan poin-poin utama dari program dan fitur aplikasi kami.
+
 https://www.canva.com/design/DAG3PD6ZTUY/V8bZersN6UzInXkOJcB1xw/edit?utm_content=DAG3PD6ZTUY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## 📱Penjelasan Alur Program (Graphical User Interface / GUI)
