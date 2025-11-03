@@ -101,7 +101,7 @@ Halaman Login Pengguna merupakan gerbang utama bagi pengguna untuk mengakses sis
 
 <img width="1584" height="1248" alt="image" src="https://github.com/user-attachments/assets/2e627917-5ff6-4c01-af83-452dc5d4f149" />
 
-### Halaman Home Pengguna
+### Halaman Home (Pengguna)
 
 Halaman Home Pengguna FINCARE merupakan tampilan utama yang muncul setelah pengguna berhasil login ke sistem. Pada halaman ini, pengguna dapat mengakses berbagai fitur utama aplikasi yang mendukung pengelolaan bantuan keuangan dan pelatihan secara digital dan transparan.
 
@@ -115,7 +115,7 @@ Selain itu, terdapat tombol Profil Saya untuk melihat data pribadi pengguna, dan
 
 <img width="1590" height="1253" alt="image" src="https://github.com/user-attachments/assets/6ee94afd-5ed7-49d4-a3bc-53b23728b336" />
 
-### Halaman Pengajuan Bantuan Pengguna
+### Halaman Pengajuan Bantuan (Pengguna)
 
 Halaman Ajukan Bantuan pada aplikasi FINCARE berfungsi untuk memfasilitasi pengguna dalam mengajukan permohonan bantuan keuangan atau pelatihan sesuai bidang yang diminati. Pengguna dapat mengisi data seperti bidang, alasan pengajuan, dan tanggal pengajuan sebelum mengirimkannya melalui tombol OK. Setelah pengajuan dikirim, sistem akan menampilkan notifikasi bahwa permohonan berhasil diajukan.
 
@@ -137,7 +137,7 @@ Halaman Pilih Pelatihan memungkinkan pengguna untuk menelusuri dan memilih berba
 
 <img width="1591" height="1247" alt="image" src="https://github.com/user-attachments/assets/89206be2-f9b3-49d8-a645-1ed3b425dba8" />
 
-### Halaman Lihat Insentif Pengguna
+### Halaman Lihat Insentif (Pengguna)
 
 Halaman Lihat Insentif berfungsi untuk menampilkan data pencairan bantuan atau insentif yang diterima oleh pengguna setelah menyelesaikan proses pelatihan. Tabel di bagian tengah halaman akan memuat informasi seperti ID transaksi, jumlah insentif, tanggal pencairan, dan keterangan setelah data tersedia. Pada tahap ini, karena pengguna belum menyelesaikan pelatihan atau belum disetujui untuk pencairan, tabel masih kosong. Tombol “Cairkan Insentif” disediakan agar pengguna dapat melakukan permintaan pencairan dana setelah memenuhi semua persyaratan yang berlaku.
 
@@ -149,13 +149,13 @@ Halaman Login Admin memiliki tampilan yang serupa dengan login pengguna, namun b
 
 <img width="1590" height="1242" alt="image" src="https://github.com/user-attachments/assets/76d8890f-2d92-40ed-9d36-4dcd3cf6c573" />
 
-### Halaman Home Admin
+### Halaman Home (Admin)
 
 Halaman Home Admin merupakan pusat kendali bagi administrator dalam sistem FINCARE. Setelah berhasil login, admin akan diarahkan ke halaman ini yang menampilkan empat fitur utama, yaitu Kelola Pelatihan, Verifikasi Pengajuan, Verifikasi Sertifikat, dan Daftar Insentif. Melalui fitur-fitur tersebut, admin dapat melakukan pengelolaan data pelatihan, memverifikasi pengajuan bantuan dari pengguna, memastikan keabsahan sertifikat pelatihan, serta mengatur daftar dan pencairan insentif. Selain itu, terdapat tombol Log Out di pojok kanan atas yang memungkinkan admin keluar dari sistem dengan aman.
 
 <img width="1594" height="1250" alt="image" src="https://github.com/user-attachments/assets/2be6121b-74df-4d24-a85e-c7889b1fabfd" />
 
-### Halaman Kelola Pelatihan Admin
+### Halaman Kelola Pelatihan (Admin)
 
 Halaman Kelola Pelatihan berfungsi sebagai tempat bagi admin untuk mengatur seluruh data pelatihan yang tersedia dalam sistem FINCARE. Pada halaman ini, admin dapat menambah, memperbarui, menghapus, dan menyegarkan (refresh) data pelatihan melalui form input yang mencakup judul pelatihan, lembaga pelatihan, periode pelaksanaan, dan harga pelatihan. Data pelatihan yang telah dimasukkan akan ditampilkan dalam tabel di bagian bawah halaman agar mudah dipantau dan dikelola. Selain itu, terdapat kolom pencarian di bagian atas yang memudahkan admin untuk menemukan pelatihan tertentu secara cepat.
 
@@ -168,5 +168,55 @@ Pada halaman Kelola Pelatihan (Create), admin dapat menambahkan data pelatihan b
 Jika proses berhasil, akan muncul notifikasi “Pelatihan ditambahkan” sebagai tanda bahwa data baru telah tersimpan dengan sukses.
 
 <img width="1574" height="1238" alt="image" src="https://github.com/user-attachments/assets/fbb92782-73d8-4838-beb3-0d21bba580ac" />
+
+### Halaman Kelola Pelatihan (Update)
+
+Pada halaman Kelola Pelatihan (Update), admin dapat memperbarui atau mengubah data pelatihan yang sudah ada di sistem. Proses ini dilakukan dengan cara memilih data pelatihan dari tabel, lalu mengedit informasi seperti judul pelatihan, lembaga pelatihan, periode pelaksanaan, maupun harga pelatihan pada kolom yang tersedia.
+
+Admin juga dapat menggunakan fitur kalender (date picker) untuk memudahkan pemilihan tanggal periode pelatihan secara akurat. Setelah melakukan perubahan, admin menekan tombol “Perbarui” untuk menyimpan pembaruan tersebut ke dalam database.
+
+<img width="1583" height="1261" alt="image" src="https://github.com/user-attachments/assets/74c2d3c3-f76a-4155-87b7-731d0704b25d" />
+
+Setelah admin melakukan perubahan data pada form input dan menekan tombol “Perbarui”, sistem akan memproses pembaruan tersebut ke dalam database. Jika proses berhasil, muncul notifikasi “Pelatihan diperbarui” sebagai tanda bahwa data pelatihan telah berhasil diubah.
+
+<img width="1577" height="1247" alt="image" src="https://github.com/user-attachments/assets/1d64b520-acbd-4eb2-8aa7-ffbe1813992b" />
+
+### Halaman Kelola Pelatihan (Delete)
+
+### Halaman Kelola Pelatihan (Search)
+
+Pada halaman Kelola Pelatihan (Search), admin dapat mencari data pelatihan dengan cepat menggunakan kolom pencarian di bagian atas halaman. Admin cukup mengetikkan kata kunci tertentu, seperti judul pelatihan, lembaga, atau bidang pelatihan, lalu sistem akan menampilkan hasil pencarian yang sesuai pada tabel di bawahnya.
+
+Fitur pencarian ini memudahkan admin dalam menemukan dan memeriksa data pelatihan tertentu tanpa harus menelusuri seluruh daftar.
+
+<img width="1571" height="1239" alt="image" src="https://github.com/user-attachments/assets/df178cad-7e2a-432b-b913-a91b88688e21" />
+
+### Halaman Verifikasi Pengajuan (Admin)
+
+Halaman Verifikasi Pengajuan berfungsi bagi admin untuk melakukan pemeriksaan dan validasi terhadap pengajuan bantuan yang diajukan oleh pengguna. Pada halaman ini, admin dapat melihat daftar seluruh pengajuan beserta nama pengguna, bidang yang diminati, tanggal pengajuan, dan statusnya.
+
+<img width="1588" height="1245" alt="image" src="https://github.com/user-attachments/assets/b7a6c5a2-ee51-4411-b686-ca27b410074c" />
+
+Pada tahap lanjutan halaman Verifikasi Pengajuan, admin dapat melakukan pencarian lebih spesifik terhadap data pengajuan pengguna dengan mengetikkan nama atau bidang yang ingin diverifikasi di kolom pencarian. Setelah data muncul, sistem akan menampilkan informasi lengkap seperti nama, NIK, bidang yang diajukan, tanggal pengajuan, dan status saat ini.
+
+<img width="1595" height="1251" alt="image" src="https://github.com/user-attachments/assets/2774b33b-e0e4-42ae-a4b8-883720e7a076" />
+
+setelah admin meninjau data pengguna dan alasan pengajuan, admin dapat memberikan keputusan akhir terhadap status pengajuan tersebut. Ketika tombol “Diterima” ditekan, sistem secara otomatis memperbarui status pengajuan menjadi DITERIMA dan menampilkan notifikasi konfirmasi berupa pesan “Status diubah ke DITERIMA”.
+
+<img width="1597" height="1255" alt="image" src="https://github.com/user-attachments/assets/7b4e00e1-6b2a-4df4-b87b-ef90f1956669" />
+
+Pada bagian ini, sistem Verifikasi Pengajuan menampilkan pesan peringatan ketika admin mencoba memperbarui data yang statusnya sudah disetujui sebelumnya. Setelah status pengajuan berubah menjadi DITERIMA, sistem tidak mengizinkan adanya perubahan ulang untuk menjaga integritas dan konsistensi data.
+
+Pesan notifikasi “Gagal memperbarui: Status sudah DITERIMA dan tidak boleh diubah.” muncul sebagai bentuk pengamanan logika sistem, agar keputusan final yang telah diverifikasi tidak dapat dimodifikasi tanpa alasan yang sah. Hal ini juga berfungsi untuk mencegah kesalahan input atau manipulasi data setelah proses verifikasi selesai.
+
+<img width="1595" height="1256" alt="image" src="https://github.com/user-attachments/assets/7af2485b-f9bd-4937-9c1e-349e7c5764b8" />
+
+Pada bagian ini sistem Verifikasi Pengajuan memperlihatkan bahwa meskipun status pengajuan yang sudah DITERIMA tidak dapat diubah kembali (sebagai bentuk pengamanan data), status yang sebelumnya DITOLAK justru masih dapat diperbarui menjadi DITERIMA.
+
+Hal ini dirancang agar admin tetap memiliki fleksibilitas dalam proses verifikasi, terutama jika setelah peninjauan ulang ditemukan bahwa pengguna sebenarnya memenuhi syarat atau telah melengkapi berkas yang sebelumnya kurang. Saat admin menekan tombol “Diterima” pada data yang berstatus DITOLAK, sistem akan menampilkan pesan konfirmasi “Status diubah ke DITERIMA” sebagai tanda bahwa pembaruan berhasil disimpan.
+
+<img width="1586" height="1247" alt="image" src="https://github.com/user-attachments/assets/899601cb-882d-4165-ac30-132ec35d60f0" />
+
+
 
 
