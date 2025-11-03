@@ -59,5 +59,16 @@ Pengguna dapat memantau status pencairan insentif secara langsung, apakah masih 
 
 Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programming / OOP) merupakan dasar dalam membangun sistem yang terstruktur dan mudah dikelola. Konsep ini membantu pengembang untuk membuat program yang efisien, aman, serta mudah dikembangkan di masa mendatang.
 
+## 🔀Flowchart & Usecase
+
+Tautan berikut menyajikan flowchart dan usecase diagram yang mendukung penjelasan konsep juga alur mengenai aplikasi kami.
+https://drive.google.com/file/d/1a9cG1KJgOj3enEn2uNvb2ZsSyagJywyZ/view?usp=sharing
+
+## 📑Slide Decks
+
+Tautan berikut menyajikan slide decks yang berisi poin-poin dari program kami.
+https://www.canva.com/design/DAG3PD6ZTUY/V8bZersN6UzInXkOJcB1xw/edit?utm_content=DAG3PD6ZTUY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
 
 
