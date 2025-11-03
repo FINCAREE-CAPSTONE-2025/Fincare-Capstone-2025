@@ -1,5 +1,12 @@
-# Fincare-Capstone-2025
+# Fincare-Capstone-2025‧₊˚✩ ₊˚💻⊹♡
 Projek Akhir Praktikum Sistem Basis Data &amp; Pemrograman Berorientasi Objek Semester 3
+
+## 👥Nama Anggota Tim:
+
+- 👤Yardan Raditya Rafi' Widyadhana (2409116037)
+- 👤Indah Putri Lestari (2409116090)
+- 👤Nabil Daffa Athalasyah (2409116004)
+- 👤Rabiatul Hikmah (2409116049)
 
 ## 💵✨APLIKASI FINCARE (FINANCIAL CARE)
 
@@ -55,7 +62,7 @@ Setelah menyelesaikan pelatihan, pengguna dapat mengunggah sertifikat hasil pela
 
 Pengguna dapat memantau status pencairan insentif secara langsung, apakah masih menunggu, sudah diterima, atau ditolak.
 
-## </> 5 Pillar Objek Oriented Programming
+## </> 5 Pillar Objek Oriented Programming / OOP
 
 Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programming / OOP) merupakan dasar dalam membangun sistem yang terstruktur dan mudah dikelola. Konsep ini membantu pengembang untuk membuat program yang efisien, aman, serta mudah dikembangkan di masa mendatang.
 
