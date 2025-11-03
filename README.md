@@ -309,7 +309,27 @@ Pada tampilan ini, pengguna kembali ke halaman Upload Sertifikat untuk melihat s
 
 ### Halaman Lihat Insentif Pengguna (Setelah sertifikat diverifikasi oleh admin)
 
+Pada tampilan ini, pengguna kembali ke halaman Lihat Insentif setelah sertifikat yang diunggah sebelumnya telah diterima oleh admin. Kini tabel pada halaman menampilkan data insentif baru dengan rincian jumlah sebesar Rp3.500.000, yang otomatis dibuat oleh sistem sebagai bentuk penghargaan atas kelulusan pelatihan pengguna. Kolom keterangan menjelaskan bahwa insentif ini muncul secara otomatis karena sertifikat telah diverifikasi dan disetujui oleh admin.
 
+<img width="1592" height="1246" alt="image" src="https://github.com/user-attachments/assets/e6c7f222-7502-466a-8ca6-20494c6e1e3f" />
+
+Pada tampilan ini, pengguna sedang melakukan proses pencairan insentif setelah sebelumnya sertifikatnya diterima oleh admin dan insentif otomatis muncul di daftar. Ketika pengguna menekan tombol “Cairkan Insentif”, sistem akan menampilkan jendela input untuk memasukkan nomor rekening tujuan. Langkah ini berfungsi agar dana insentif dapat dikirim ke rekening yang benar sesuai data yang dimasukkan oleh pengguna.
+
+<img width="1599" height="1248" alt="image" src="https://github.com/user-attachments/assets/15ab80e2-6c16-424f-90b1-bd28cb2bc47a" />
+
+Pada tampilan ini, proses pencairan insentif telah berhasil dilakukan oleh pengguna. Setelah pengguna memasukkan nomor rekening pada langkah sebelumnya, sistem menampilkan pesan konfirmasi berupa notifikasi “Insentif berhasil dicairkan ke rekening 084527429373”. Pesan ini menandakan bahwa transaksi pencairan dana insentif telah diproses dengan sukses oleh sistem dan dana akan dikirim ke rekening yang telah dimasukkan pengguna.
+
+<img width="1592" height="1247" alt="image" src="https://github.com/user-attachments/assets/19a6c038-2412-49af-b4b6-845e8a9a6562" />
+
+Pada tampilan ini, proses pencairan insentif telah selesai sepenuhnya dan hasilnya kini tercatat dalam sistem. Tabel menampilkan bahwa insentif dengan ID 19 sudah memiliki status “Sudah dicairkan”, dengan tanggal pencairan otomatis tercatat pada 3 November 2025. Kolom jumlah kini menunjukkan nilai Rp 0, yang menandakan bahwa dana insentif telah ditransfer ke rekening pengguna dan tidak ada saldo yang tersisa untuk dicairkan. Selain itu, kolom keterangan memberi informasi tambahan bahwa transaksi telah berhasil diselesaikan. Tampilan ini menjadi bukti akhir bahwa sistem Fincare berhasil mencatat, memproses, dan menyelesaikan transaksi insentif pengguna secara transparan dan terkelola dengan baik.
+
+<img width="1590" height="1241" alt="image" src="https://github.com/user-attachments/assets/f587fc57-7e2f-4650-85d6-b4d2e409357d" />
+
+### Halaman Lihat Insentif (Admin)
+
+Pada tampilan ini, halaman menunjukkan menu Lihat Insentif dari sisi admin, di mana admin dapat memantau seluruh data insentif pengguna, termasuk yang sudah dicairkan. Admin dapat melakukan pencarian berdasarkan nama pengguna melalui kolom pencarian di bagian atas untuk mempermudah pengecekan data. Dalam contoh ini, terlihat bahwa insentif atas nama Lestari Kirei telah memiliki status “Sudah dicairkan” dengan jumlah Rp 0,00 dan tanggal cair 3 November 2025, yang menandakan bahwa dana telah berhasil ditransfer kepada pengguna. Selain itu, data insentif lain seperti milik Tika Lestari juga tercatat lengkap dengan jumlah dan keterangan berbeda. Tampilan ini membantu admin dalam mengawasi riwayat insentif dan memastikan seluruh transaksi pencairan berjalan dengan baik serta tercatat secara transparan di sistem.
+
+<img width="1590" height="1253" alt="image" src="https://github.com/user-attachments/assets/c5f2e306-2a68-4558-9e81-b0ef414dd177" />
 
 
 
