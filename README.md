@@ -217,6 +217,53 @@ Hal ini dirancang agar admin tetap memiliki fleksibilitas dalam proses verifikas
 
 <img width="1586" height="1247" alt="image" src="https://github.com/user-attachments/assets/899601cb-882d-4165-ac30-132ec35d60f0" />
 
+### Halaman Pengajuan Bantuan (Pengguna)
+
+Pada tahap ini, halaman Ajukan Bantuan menampilkan data pengajuan pengguna yang telah disetujui oleh admin. Status pengajuan yang sebelumnya MENUNGGU kini berubah menjadi DITERIMA, menandakan bahwa permohonan bantuan pengguna sudah diverifikasi dan disetujui untuk diproses lebih lanjut.
+
+<img width="1590" height="1249" alt="image" src="https://github.com/user-attachments/assets/a92268d2-ab13-40bd-ac48-2a3655c2d574" />
+
+### Halaman Profil Pengguna (Setelah pengajuan diterima)
+
+Pada tahap ini, halaman Profil Pengguna menampilkan kondisi setelah pengajuan bantuan pengguna telah diterima oleh admin. Perubahan yang terlihat adalah munculnya saldo bantuan sebesar Rp2.500.000 di bagian atas halaman, yang menandakan bahwa dana bantuan dari program telah resmi diberikan kepada pengguna dan siap digunakan untuk kegiatan pelatihan atau keperluan yang relevan.
+
+<img width="1589" height="1243" alt="image" src="https://github.com/user-attachments/assets/abd66eda-e543-44d3-861b-fe958c0473b2" />
+
+### Halaman Beli Pelatihan Pengguna (Setelah pengajuan diterima)
+
+Pada halaman Pilih Pelatihan ini, pengguna yang telah menerima bantuan dapat menggunakan saldo bantuannya untuk membeli pelatihan sesuai minat dan kebutuhan. Setelah memilih salah satu pelatihan dari daftar — dalam contoh ini Pelatihan Administrasi Digital yang diselenggarakan oleh LKP Admin Center dengan biaya sebesar Rp1.500.000 — pengguna menekan tombol “Beli Pelatihan” untuk melanjutkan transaksi.
+
+Sistem kemudian menampilkan pesan “Pembelian berhasil. Saldo terpotong.” sebagai konfirmasi bahwa proses pembelian telah sukses dan jumlah biaya pelatihan otomatis dikurangi dari saldo bantuan pengguna. Pesan ini juga menandakan bahwa data pembelian telah tercatat dan pelatihan tersebut akan muncul di bagian riwayat pembelian pada halaman profil pengguna.
+
+<img width="1587" height="1247" alt="image" src="https://github.com/user-attachments/assets/594367e6-057d-40c9-8549-172043bc5a17" />
+
+### Halaman Profil Pengguna (Setelah beli pelatihan)
+
+Pada tampilan Profil Pengguna setelah proses pembelian pelatihan, sistem FINCARE memperbarui data pengguna secara otomatis untuk menampilkan hasil transaksi terbaru. Di bagian atas halaman, saldo bantuan kini berkurang menjadi Rp1.000.000, karena sebelumnya pengguna telah menggunakan Rp1.500.000 untuk membeli pelatihan yang dipilih.
+
+Selain itu, pada bagian Riwayat Pembelian, kini muncul data pelatihan yang baru saja dibeli, yaitu Pelatihan Administrasi Digital yang diselenggarakan oleh LKP Admin Center dengan periode pelatihan 1 November 2025 dan harga sebesar Rp1.500.000. Informasi ini berfungsi sebagai bukti bahwa transaksi telah tercatat secara valid dan transparan dalam sistem.
+
+Melalui pembaruan ini, pengguna dapat dengan mudah memantau saldo tersisa serta pelatihan apa saja yang telah diikuti.
+
+<img width="1583" height="1245" alt="image" src="https://github.com/user-attachments/assets/ae2a9221-8b81-4277-a627-a8d07cdd73ff" />
+
+### Halaman Beli Pelatihan Pengguna (Misalnya beli pelatihan 2 kali)
+
+Pada tampilan Pilih Pelatihan ini, pengguna melakukan pembelian pelatihan untuk kedua kalinya setelah sebelumnya telah membeli satu pelatihan menggunakan saldo bantuannya. Setelah memilih pelatihan kedua, yaitu Pelatihan Cleaning Service Dasar dari LKP Bersih Mandiri dengan biaya Rp900.000, pengguna kembali menekan tombol “Beli Pelatihan” untuk melanjutkan transaksi.
+
+Sistem kemudian menampilkan pesan “Pembelian berhasil. Silakan cek riwayat pada menu Profil.”, yang menandakan bahwa transaksi berhasil diproses dan data pelatihan baru telah tercatat dalam sistem. Selain itu, saldo bantuan pengguna otomatis berkurang kembali sesuai harga pelatihan yang dibeli, memastikan setiap transaksi terekam secara transparan dan akurat.
+
+<img width="1575" height="1239" alt="image" src="https://github.com/user-attachments/assets/859a9a7b-46d8-4bd4-b063-c0df0c1cb615" />
+
+Pada tampilan Pilih Pelatihan ini, sistem FINCARE menampilkan kondisi ketika pengguna mencoba membeli pelatihan namun saldo bantuan tidak mencukupi. Setelah pengguna memilih Pelatihan Pertanian Cerdas yang diselenggarakan oleh LKP Tani Sejahtera dengan biaya sebesar Rp1.800.000, sistem melakukan pengecekan otomatis terhadap saldo bantuan yang tersisa.
+
+Karena saldo pengguna lebih kecil dari harga pelatihan, sistem langsung menampilkan pesan peringatan “Saldo tidak cukup untuk membeli pelatihan ini.” melalui jendela notifikasi berikon peringatan merah. Proses transaksi otomatis dibatalkan dan saldo pengguna tetap aman tanpa perubahan.
+
+<img width="1583" height="1241" alt="image" src="https://github.com/user-attachments/assets/1f99c92d-9b95-4ceb-aac2-58a51ec58a44" />
+
+
+
+
 
 
 
