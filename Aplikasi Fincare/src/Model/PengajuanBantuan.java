@@ -20,9 +20,6 @@ public class PengajuanBantuan {
     @JoinColumn(name = "nik_admin", nullable = true)
     private Admin admin;
 
-    @Column(name = "id_pelatihan")
-    private Integer idPelatihan;
-
     @Column(name = "alasan_pengajuan", nullable = false, columnDefinition = "TEXT")
     private String alasanPengajuan;
 
@@ -57,14 +54,6 @@ public class PengajuanBantuan {
 
     public void setAdmin(Admin admin) {
         this.admin = admin;
-    }
-
-    public Integer getIdPelatihan() {
-        return idPelatihan;
-    }
-
-    public void setIdPelatihan(Integer idPelatihan) {
-        this.idPelatihan = idPelatihan;
     }
 
     public String getAlasanPengajuan() {
