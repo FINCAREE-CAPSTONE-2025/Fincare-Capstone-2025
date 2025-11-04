@@ -1,5 +1,5 @@
 # Fincare-Capstone-2025‧₊˚✩ ₊˚💻⊹♡
-Project Akhir Praktikum Sistem Basis Data &amp; Pemrograman Berorientasi Objek Semester 3
+Project Akhir Praktikum Sistem Basis Data & Pemrograman Berorientasi Objek Semester 3
 
 ## 👥Nama Anggota Tim:
 
