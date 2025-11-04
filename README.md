@@ -76,7 +76,9 @@ Penerapan pola Singleton dipakai karena kita butuh satu pintu utama untuk mengel
 
 ### JPA
 
+Pada aplikasi ini diterapkan Jakarta Persistence API (JPA) sebagai penghubung antara program Java dan database. Konfigurasi JPA dilakukan melalui file persistence.xml, yang mendefinisikan nama unit (fincarePU), koneksi MySQL, dan daftar entity yang digunakan. Dengan JPA, proses penyimpanan, pembacaan, dan pengelolaan data menjadi lebih terstruktur dan otomatis tanpa menulis query SQL secara manual untuk setiap operasi. JPA juga memudahkan pengembangan karena perubahan struktur database dapat langsung terdeteksi melalui entity class.
 
+<img width="1692" height="1487" alt="image" src="https://github.com/user-attachments/assets/113aa6fc-192e-4b7b-831a-3ac08c789a2c" />
 
 ## 🗂️Struktur Package
 ![Struktur Package1](https://github.com/user-attachments/assets/6e914395-4c60-456e-a0fe-1786d49bced3)
