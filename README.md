@@ -66,6 +66,36 @@ Pengguna dapat memantau status pencairan insentif secara langsung, apakah masih 
 
 Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programming / OOP) merupakan dasar dalam membangun sistem yang terstruktur dan mudah dikelola. Konsep ini membantu pengembang untuk membuat program yang efisien, aman, serta mudah dikembangkan di masa mendatang.
 
+### Abstraction
+
+Pada sistem ini digunakan konsep abstract class sebagai dasar struktur layanan (service layer). Abstract class berfungsi sebagai kelas induk yang mendefinisikan kerangka fungsi umum untuk pengelolaan transaksi database, namun tidak dapat di-instansiasi secara langsung. Dengan cara ini, kelas turunan seperti service untuk akun, sertifikat, dan pelatihan dapat mewarisi mekanisme transaksi yang sama tanpa perlu menulis ulang kode. Pendekatan ini membuat kode lebih rapi, konsisten, mudah dirawat, dan mencegah duplikasi logika. Selain itu, abstract class memastikan setiap service memiliki pola kerja yang seragam, sehingga proses pengembangan lebih terstruktur dan terkontrol.
+
+<img width="1377" height="875" alt="Cuplikan layar 2025-11-04 195252" src="https://github.com/user-attachments/assets/fbcff9a8-3b8f-4a34-a6e5-611e036751be" />
+
+### Interface
+
+Pada sistem ini diterapkan konsep interface untuk mendefinisikan kontrak atau aturan dasar yang harus diikuti oleh class-class lain. Contohnya adalah interface CrudService yang berisi aturan operasi dasar seperti tambah, cari, perbarui, dan hapus data. Dengan menggunakan interface, setiap class service yang mengelola data wajib menyediakan implementasi dari fungsi-fungsi tersebut. Pendekatan ini membuat struktur kode menjadi lebih konsisten, mudah dikembangkan, dan memudahkan jika di kemudian hari terjadi perubahan karena cukup mengubah implementasinya tanpa mengubah keseluruhan sistem. Interface ini juga membantu menjaga pemisahan logika sehingga tiap komponen fokus pada tugasnya masing-masing. Selain interface CRUD, sistem ini juga menggunakan interface Peran untuk mengatur hak akses pengguna. Interface ini mendefinisikan aturan mengenai apa saja yang boleh dilakukan oleh sebuah peran, seperti apakah boleh memverifikasi pengajuan atau mengelola pelatihan. Dengan mekanisme ini, setiap jenis akun yang dibuat wajib menentukan hak aksesnya masing-masing. Cara ini membuat pengaturan akses lebih rapi, mudah dikontrol, dan fleksibel jika ke depannya jumlah peran ditambah.
+
+<img width="830" height="950" alt="image" src="https://github.com/user-attachments/assets/6bb7c490-cc2e-4029-8593-c9c0ca1dee4d" />
+
+### Encapsulation
+
+Pada class Akun di package model, prinsip encapsulation diterapkan dengan menyembunyikan atribut menggunakan modifier private dan menyediakan akses melalui metode getter dan setter. Contohnya, atribut seperti nik, nama, dan email tidak bisa diakses langsung dari luar class, tetapi harus melalui metode seperti getNama() atau setNama(String nama). Pendekatan ini melindungi data agar tidak dimanipulasi sembarangan dan menjaga konsistensi nilai di dalam objek. Penerapan encapsulation ini tidak hanya digunakan pada class Akun, tetapi juga diterapkan secara konsisten pada seluruh class dalam package model untuk memastikan struktur data yang lebih aman, rapi, dan mudah dikontrol di seluruh aplikasi.
+
+<img width="1135" height="1699" alt="image" src="https://github.com/user-attachments/assets/50979760-b6f7-48f1-9bc3-b28d29b8ca79" />
+
+### Polymorpshim
+
+Pada class SertifikatService, method–method seperti tambah, temukan, temukanSemua, perbarui, dan hapus merupakan implementasi ulang (override) dari method yang didefinisikan di interface CrudService. Dengan melakukan overriding, class ini memberikan perilaku spesifik untuk setiap operasi CRUD sesuai kebutuhan pengelolaan data sertifikat. Pendekatan ini memastikan setiap proses (misalnya insert, update, delete, dan pencarian data sertifikat) berjalan sesuai aturan bisnis aplikasi. Penerapan overriding seperti ini konsisten dilakukan pada service–service lain dalam aplikasi, sehingga struktur kode lebih fleksibel, mudah dikembangkan, dan memaksimalkan prinsip OOP untuk menyediakan versi method yang sesuai pada tiap entitas yang berbeda.
+
+<img width="1817" height="1698" alt="image" src="https://github.com/user-attachments/assets/386930eb-8271-42f5-a6fb-614918f83dec" />
+
+### Inheritance
+
+Pada sistem ini menerapkan konsep inheritance (pewarisan) pada layer service. Setiap class service seperti AuthService, SertifikatService, PelatihanService, InsentifService, dan PengajuanService mewarisi (extends) class BaseService. Dengan pewarisan ini, seluruh class service otomatis mendapatkan fungsi dasar pengelolaan transaksi database yang sudah disediakan di BaseService, tanpa perlu menulis ulang logikanya. Penerapan inheritance ini membuat kode lebih rapi, reusable, dan mudah dikelola karena semua service memakai fondasi yang sama.
+
+<img width="1858" height="1107" alt="image" src="https://github.com/user-attachments/assets/b5e87a21-0ed1-4380-842e-531a8a642d01" />
+
 ## ★ Penerapan Nilai Tambah
 
 ### Singleton
