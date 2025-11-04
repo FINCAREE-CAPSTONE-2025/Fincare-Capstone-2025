@@ -12,13 +12,11 @@ public class PengajuanBaris {
     public final LocalDateTime tanggalPengajuan;
     public final String  statusPengajuan;
     public final String  alasanPengajuan;
-    public final Integer idPelatihan;
     public final Integer nikAdmin;
 
     public PengajuanBaris(Integer idPengajuan, Integer nikPengguna, String nama, String pekerjaan,
                         Integer penghasilan, String bidangDiminati, LocalDateTime tanggalPengajuan,
-                        String statusPengajuan, String alasanPengajuan,
-                        Integer idPelatihan, Integer nikAdmin) {
+                        String statusPengajuan, String alasanPengajuan, Integer nikAdmin) {
         this.idPengajuan = idPengajuan;
         this.nikPengguna = nikPengguna;
         this.nama = nama;
@@ -28,7 +26,6 @@ public class PengajuanBaris {
         this.tanggalPengajuan = tanggalPengajuan;
         this.statusPengajuan = statusPengajuan;
         this.alasanPengajuan = alasanPengajuan;
-        this.idPelatihan = idPelatihan;
         this.nikAdmin = nikAdmin;
     }
 }
