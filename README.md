@@ -32,7 +32,7 @@ Admin dapat membuat, mengedit, dan menghapus data pelatihan seperti jadwal, lemb
 
 **2. Verifikasi Pengajuan**
 
-Fitur untuk memeriksa dan memvalidasi permohonan bantuan dari pengguna. Admin dapat menentukan status pengajuan — menunggu, diterima, atau ditolak.
+Fitur untuk memeriksa dan memvalidasi permohonan bantuan dari pengguna. Admin dapat menentukan status pengajuan seperti menunggu, diterima, atau ditolak.
 
 **3. Verifikasi Sertifikat**
 
@@ -132,6 +132,7 @@ Secara keseluruhan, struktur ini mencerminkan arsitektur yang terorganisasi deng
 ## 🔀Flowchart & Usecase
 
 Tautan berikut menyajikan flowchart dan use case diagram yang menggambarkan alur sistem serta mendukung penjelasan konsep aplikasi kami secara keseluruhan.
+
 https://drive.google.com/file/d/1a9cG1KJgOj3enEn2uNvb2ZsSyagJywyZ/view?usp=sharing
 
 ## 📑Slide Decks
