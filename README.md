@@ -153,7 +153,7 @@ Halaman Lihat Insentif berfungsi untuk menampilkan data pencairan bantuan atau i
 
 <img width="1591" height="1245" alt="image" src="https://github.com/user-attachments/assets/73969a28-cda6-42c2-a625-c4d79adac9a7" />
 
-### Login Admin
+## Login Admin
 
 Halaman Login Admin memiliki tampilan yang serupa dengan login pengguna, namun berfungsi khusus untuk memberikan akses kepada pihak admin dalam mengelola sistem FINCARE. Admin memasukkan email dan password yang telah terdaftar pada database, dan setelah berhasil diverifikasi, sistem akan menampilkan pesan sambutan seperti “Halo Admin [nama admin]” sebagai tanda login berhasil. Melalui login ini, admin akan diarahkan ke dashboard khusus yang berisi fitur-fitur pengelolaan, seperti verifikasi pengajuan bantuan, pengelolaan data pelatihan, sertifikat, hingga pencairan insentif.
 
