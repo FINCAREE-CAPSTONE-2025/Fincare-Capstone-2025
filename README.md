@@ -4,8 +4,8 @@ Projek Akhir Praktikum Sistem Basis Data &amp; Pemrograman Berorientasi Objek Se
 ## 👥Nama Anggota Tim:
 
 - 👤Yardan Raditya Rafi' Widyadhana (2409116037)
-- 👤Indah Putri Lestari (2409116090)
-- 👤Nabil Daffa Athalasyah (2409116004)
+- 👤Indah Putri Lestari (2409116004)
+- 👤Nabil Daffa Athalasyah (2409116090)
 - 👤Rabiatul Hikmah (2409116049)
 
 ## 💵✨APLIKASI FINCARE (FINANCIAL CARE)
