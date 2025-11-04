@@ -123,11 +123,7 @@ public class ProfilPengguna_1 extends javax.swing.JFrame {
                 jTextFieldSaldoAkunActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         getContentPane().add(jTextFieldSaldoAkun, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 110, 20));
-=======
-        getContentPane().add(jTextFieldSaldoAkun, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, 100, 20));
->>>>>>> ffcfc0a90936944d338d2b3556aca9c95790d299
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

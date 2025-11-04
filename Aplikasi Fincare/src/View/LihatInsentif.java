@@ -93,11 +93,7 @@ public class LihatInsentif extends javax.swing.JFrame {
                 jTextFieldKeteranganActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         getContentPane().add(jTextFieldKeterangan, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 430, 410, 40));
-=======
-        getContentPane().add(jTextFieldKeterangan, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 430, 390, 40));
->>>>>>> ffcfc0a90936944d338d2b3556aca9c95790d299
 
         jLabel1.setFont(new java.awt.Font("Dubai", 1, 18)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Lihat Insentif.png"))); // NOI18N

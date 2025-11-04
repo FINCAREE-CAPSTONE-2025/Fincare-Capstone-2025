@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package service;
 
 import java.util.List;
@@ -10,16 +9,3 @@ public interface CrudService<Tipe, ID> {
     Tipe perbarui(Tipe t);
     boolean hapus(ID id);
 }
-=======
-package service;
-
-import java.util.List;
-
-public interface CrudService<Tipe, ID> {
-    Tipe tambah(Tipe t);
-    Tipe temukan(ID id);
-    List<Tipe> temukanSemua();
-    Tipe perbarui(Tipe t);
-    boolean hapus(ID id);
-}
->>>>>>> ffcfc0a90936944d338d2b3556aca9c95790d299

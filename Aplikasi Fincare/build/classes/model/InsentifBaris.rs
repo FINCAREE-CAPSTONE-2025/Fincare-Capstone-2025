@@ -1,0 +1,2 @@
+dto.InsentifRow
+model.InsentifBaris
