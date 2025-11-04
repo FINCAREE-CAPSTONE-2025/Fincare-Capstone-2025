@@ -1,12 +1,21 @@
 package View;
 
 import javax.swing.JOptionPane;
+<<<<<<< HEAD
+=======
+//import javax.swing.SwingUtilities;
+>>>>>>> ffcfc0a90936944d338d2b3556aca9c95790d299
 
 public class HomePengguna extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(HomePengguna.class.getName());
     private final model.Akun penggunaLogin;
+<<<<<<< HEAD
     
+=======
+//    private GifPlayer player;
+
+>>>>>>> ffcfc0a90936944d338d2b3556aca9c95790d299
     public HomePengguna(model.Akun penggunaLogin) {
         this.penggunaLogin = penggunaLogin;
         initComponents();
@@ -21,8 +30,37 @@ public class HomePengguna extends javax.swing.JFrame {
             return;
         }
         
+<<<<<<< HEAD
     }
 
+=======
+//        SwingUtilities.invokeLater(() -> {
+//            // gunakan PATH yang sama persis dengan file kamu
+//            final String PATH = "/Image/HOMEPENGGUNA2.gif";
+//
+//            // cek resource sekali
+//            var url = HomePengguna.class.getResource(PATH);
+//            System.out.println("GIF URL = " + url);
+//
+//            if (url != null) {
+//                // fallback: tampilkan dulu agar langsung kelihatan
+//                jLabelHome.setIcon(new javax.swing.ImageIcon(url));
+//            }
+//
+//            // jalankan GifPlayer (lebih halus)
+//            player = new GifPlayer(jLabelHome);
+//            player.loadFromResource(PATH, jLabelHome.getWidth(), jLabelHome.getHeight());
+//            player.start();
+//
+//            // jadikan jLabelHome benar-benar background (di paling belakang)
+//            getContentPane().setComponentZOrder(jLabelHome, getContentPane().getComponentCount() - 1);
+//            jLabelHome.revalidate();
+//            jLabelHome.repaint();
+//        });
+    }
+
+
+>>>>>>> ffcfc0a90936944d338d2b3556aca9c95790d299
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always

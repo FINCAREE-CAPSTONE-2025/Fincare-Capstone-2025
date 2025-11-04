@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package service;
 
 import App.JPAProvider;
@@ -12,4 +13,20 @@ public class PenggunaService {
         finally { em.close(); }
     }
     
+=======
+package service;
+
+import App.JPAProvider;
+import jakarta.persistence.EntityManager;
+import model.Pengguna;
+
+public class PenggunaService {
+    public Pengguna temukan(Integer nik) {
+        EntityManager em = JPAProvider.em();
+        try { 
+            return em.find(Pengguna.class, nik); }
+        finally { em.close(); }
+    }
+    
+>>>>>>> ffcfc0a90936944d338d2b3556aca9c95790d299
 }

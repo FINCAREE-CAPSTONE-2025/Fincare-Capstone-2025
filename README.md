@@ -1,0 +1,422 @@
+# Fincare-Capstone-2025‧₊˚✩ ₊˚💻⊹♡
+Project Akhir Praktikum Sistem Basis Data & Pemrograman Berorientasi Objek Semester 3
+
+## 👥Nama Anggota Tim:
+
+- 👤Yardan Raditya Rafi' Widyadhana (2409116037)
+- 👤Indah Putri Lestari (2409116004)
+- 👤Nabil Daffa Athalasyah (2409116090)
+- 👤Rabiatul Hikmah (2409116049)
+
+## 💵✨APLIKASI FINCARE (FINANCIAL CARE)
+
+<img width="1593" height="1243" alt="image" src="https://github.com/user-attachments/assets/77016d29-4188-4964-bc84-ccf5bfc179e9" />
+
+Aplikasi FINCARE adalah aplikasi yang dirancang untuk mendukung inklusi keuangan masyarakat melalui sistem digital yang transparan dan terintegrasi. FINCARE membantu pengguna dalam mengelola proses pengajuan bantuan keuangan, pelatihan, sertifikasi, hingga pencairan insentif secara efisien. Aplikasi ini tidak hanya berfungsi sebagai pengelola data bantuan, tetapi juga menjadi sarana pemberdayaan dengan menyediakan akses pelatihan finansial yang inklusif dan berkelanjutan.
+
+## 💰Deskripsi Singkat Program
+
+FINCARE merupakan aplikasi yang menghadirkan solusi digital dalam pengelolaan bantuan keuangan dan pelatihan masyarakat. Melalui sistem yang terintegrasi, FINCARE memudahkan proses verifikasi, pelatihan, sertifikasi, hingga pencairan insentif secara transparan dan efisien untuk mendukung inklusi keuangan yang berkelanjutan.
+
+## 💡Fitur-fitur program
+
+Aplikasi FINCARE memiliki dua jenis peran utama, yaitu Admin dan Pengguna, yang masing-masing memiliki fitur berbeda sesuai tanggung jawabnya.
+
+### 💫Fitur Admin
+
+Admin berperan dalam mengelola sistem serta memverifikasi seluruh proses bantuan dan pelatihan. Fitur yang tersedia untuk admin meliputi:
+
+**1. Kelola Pelatihan**
+
+Admin dapat membuat, mengedit, dan menghapus data pelatihan seperti jadwal, lembaga penyelenggara, serta biaya pelatihan. Tujuannya agar program pelatihan selalu terupdate dan relevan bagi pengguna.
+
+**2. Verifikasi Pengajuan**
+
+Fitur untuk memeriksa dan memvalidasi permohonan bantuan dari pengguna. Admin dapat menentukan status pengajuan — menunggu, diterima, atau ditolak.
+
+**3. Verifikasi Sertifikat**
+
+Admin melakukan pemeriksaan keabsahan sertifikat pelatihan yang diunggah pengguna sebelum dinyatakan valid. Hal ini memastikan sertifikat benar-benar berasal dari pelatihan resmi.
+
+**4. Daftar Insentif**
+
+Admin mengatur dan memverifikasi pencairan insentif kepada pengguna yang telah menyelesaikan pelatihan serta lolos verifikasi sertifikat.
+
+### 👤Fitur Pengguna
+
+Pengguna dapat mengakses berbagai layanan bantuan keuangan dan pelatihan secara daring melalui aplikasi. Fitur yang disediakan antara lain:
+
+**1. Ajukan Bantuan**
+
+Pengguna dapat mengajukan permohonan bantuan finansial dengan mengisi data serta alasan pengajuan secara digital.
+
+**2. Pilih Pelatihan**
+
+Fitur untuk memilih bidang pelatihan yang diminati sesuai kebutuhan peningkatan keterampilan (upskilling). Data ini juga menjadi acuan dalam pengajuan bantuan.
+
+**3. Upload Sertifikat**
+
+Setelah menyelesaikan pelatihan, pengguna dapat mengunggah sertifikat hasil pelatihan sebagai bukti partisipasi. Sertifikat ini nantinya diverifikasi oleh admin.
+
+**4. Lihat Insentif**
+
+Pengguna dapat memantau status pencairan insentif secara langsung, apakah masih menunggu, sudah diterima, atau ditolak.
+
+## </> 5 Pillar Objek Oriented Programming / OOP
+
+Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programming / OOP) merupakan dasar dalam membangun sistem yang terstruktur dan mudah dikelola. Konsep ini membantu pengembang untuk membuat program yang efisien, aman, serta mudah dikembangkan di masa mendatang.
+
+### Abstraction
+
+Pada sistem ini digunakan konsep abstract class sebagai dasar struktur layanan (service layer). Abstract class berfungsi sebagai kelas induk yang mendefinisikan kerangka fungsi umum untuk pengelolaan transaksi database, namun tidak dapat di-instansiasi secara langsung. Dengan cara ini, kelas turunan seperti service untuk akun, sertifikat, dan pelatihan dapat mewarisi mekanisme transaksi yang sama tanpa perlu menulis ulang kode. Pendekatan ini membuat kode lebih rapi, konsisten, mudah dirawat, dan mencegah duplikasi logika. Selain itu, abstract class memastikan setiap service memiliki pola kerja yang seragam, sehingga proses pengembangan lebih terstruktur dan terkontrol.
+
+<img width="1377" height="875" alt="Cuplikan layar 2025-11-04 195252" src="https://github.com/user-attachments/assets/fbcff9a8-3b8f-4a34-a6e5-611e036751be" />
+
+### Interface
+
+Pada sistem ini diterapkan konsep interface untuk mendefinisikan kontrak atau aturan dasar yang harus diikuti oleh class-class lain. Contohnya adalah interface CrudService yang berisi aturan operasi dasar seperti tambah, cari, perbarui, dan hapus data. Dengan menggunakan interface, setiap class service yang mengelola data wajib menyediakan implementasi dari fungsi-fungsi tersebut. Pendekatan ini membuat struktur kode menjadi lebih konsisten, mudah dikembangkan, dan memudahkan jika di kemudian hari terjadi perubahan karena cukup mengubah implementasinya tanpa mengubah keseluruhan sistem. Interface ini juga membantu menjaga pemisahan logika sehingga tiap komponen fokus pada tugasnya masing-masing. Selain interface CRUD, sistem ini juga menggunakan interface Peran untuk mengatur hak akses pengguna. Interface ini mendefinisikan aturan mengenai apa saja yang boleh dilakukan oleh sebuah peran, seperti apakah boleh memverifikasi pengajuan atau mengelola pelatihan. Dengan mekanisme ini, setiap jenis akun yang dibuat wajib menentukan hak aksesnya masing-masing. Cara ini membuat pengaturan akses lebih rapi, mudah dikontrol, dan fleksibel jika ke depannya jumlah peran ditambah.
+
+<img width="830" height="950" alt="image" src="https://github.com/user-attachments/assets/6bb7c490-cc2e-4029-8593-c9c0ca1dee4d" />
+
+### Encapsulation
+
+Pada class Akun di package model, prinsip encapsulation diterapkan dengan menyembunyikan atribut menggunakan modifier private dan menyediakan akses melalui metode getter dan setter. Contohnya, atribut seperti nik, nama, dan email tidak bisa diakses langsung dari luar class, tetapi harus melalui metode seperti getNama() atau setNama(String nama). Pendekatan ini melindungi data agar tidak dimanipulasi sembarangan dan menjaga konsistensi nilai di dalam objek. Penerapan encapsulation ini tidak hanya digunakan pada class Akun, tetapi juga diterapkan secara konsisten pada seluruh class dalam package model untuk memastikan struktur data yang lebih aman, rapi, dan mudah dikontrol di seluruh aplikasi.
+
+<img width="1135" height="1699" alt="image" src="https://github.com/user-attachments/assets/50979760-b6f7-48f1-9bc3-b28d29b8ca79" />
+
+### Polymorpshim
+
+Pada class SertifikatService, method–method seperti tambah, temukan, temukanSemua, perbarui, dan hapus merupakan implementasi ulang (override) dari method yang didefinisikan di interface CrudService. Dengan melakukan overriding, class ini memberikan perilaku spesifik untuk setiap operasi CRUD sesuai kebutuhan pengelolaan data sertifikat. Pendekatan ini memastikan setiap proses (misalnya insert, update, delete, dan pencarian data sertifikat) berjalan sesuai aturan bisnis aplikasi. Penerapan overriding seperti ini konsisten dilakukan pada service–service lain dalam aplikasi, sehingga struktur kode lebih fleksibel, mudah dikembangkan, dan memaksimalkan prinsip OOP untuk menyediakan versi method yang sesuai pada tiap entitas yang berbeda.
+
+<img width="1817" height="1698" alt="image" src="https://github.com/user-attachments/assets/386930eb-8271-42f5-a6fb-614918f83dec" />
+
+### Inheritance
+
+Pada sistem ini menerapkan konsep inheritance (pewarisan) pada layer service. Setiap class service seperti AuthService, SertifikatService, PelatihanService, InsentifService, dan PengajuanService mewarisi (extends) class BaseService. Dengan pewarisan ini, seluruh class service otomatis mendapatkan fungsi dasar pengelolaan transaksi database yang sudah disediakan di BaseService, tanpa perlu menulis ulang logikanya. Penerapan inheritance ini membuat kode lebih rapi, reusable, dan mudah dikelola karena semua service memakai fondasi yang sama.
+
+<img width="1858" height="1107" alt="image" src="https://github.com/user-attachments/assets/b5e87a21-0ed1-4380-842e-531a8a642d01" />
+
+## ★ Penerapan Nilai Tambah
+
+### Singleton
+
+Penerapan pola Singleton dipakai karena kita butuh satu pintu utama untuk mengelola koneksi ke database. Kalau setiap bagian aplikasi membuat koneksi sendiri-sendiri, itu boros memori dan bisa bikin aplikasi berat atau malah error karena terlalu banyak koneksi terbuka. Dengan Singleton, EntityManagerFactory hanya dibuat satu kali, lalu seluruh proses akan memakai instance yang sama. Cara ini lebih rapi, lebih hemat sumber daya, dan memudahkan pengaturan lifecycle koneksi mulai dari pembuatan sampai penutupan. Selain itu, pendekatan ini juga mencegah konflik atau inkonsistensi data karena semua query berjalan lewat jalur yang sama. Jadi intinya, kita pakai Singleton supaya koneksi database stabil, efisien, dan lebih terkontrol.
+
+<img width="1371" height="1047" alt="image" src="https://github.com/user-attachments/assets/870d8b47-77a6-4e4c-8821-397aacfbcee8" />
+
+### JPA
+
+Pada aplikasi ini diterapkan Jakarta Persistence API (JPA) sebagai penghubung antara program Java dan database. Konfigurasi JPA dilakukan melalui file persistence.xml, yang mendefinisikan nama unit (fincarePU), koneksi MySQL, dan daftar entity yang digunakan. Dengan JPA, proses penyimpanan, pembacaan, dan pengelolaan data menjadi lebih terstruktur dan otomatis tanpa menulis query SQL secara manual untuk setiap operasi. JPA juga memudahkan pengembangan karena perubahan struktur database dapat langsung terdeteksi melalui entity class.
+
+<img width="1692" height="1487" alt="image" src="https://github.com/user-attachments/assets/113aa6fc-192e-4b7b-831a-3ac08c789a2c" />
+
+## 🗂️Struktur Packages MVC
+![Struktur Package1](https://github.com/user-attachments/assets/6e914395-4c60-456e-a0fe-1786d49bced3)
+![Struktur Package2](https://github.com/user-attachments/assets/ebbd2a5e-5f54-498e-aaa7-64b16ea17cf5)
+![Struktur Package3](https://github.com/user-attachments/assets/4201f172-274a-4782-87fd-592fd31fb30f)
+
+Struktur package pada project Aplikasi Fincare dibangun dengan pendekatan berbasis layer (layered architecture) untuk memisahkan tanggung jawab setiap komponen aplikasi agar mudah dikelola, dipahami, dan dikembangkan. Di dalam Source Packages, terdapat beberapa package utama, yaitu App, Model, Service, dan View, yang masing-masing memiliki perannya sendiri.
+
+Package App berisi kelas utama seperti Main.java, DisplayGif.java, serta kelas pendukung seperti MenuAdmin.java dan MenuPengguna.java. Package ini berfungsi sebagai pengendali utama aplikasi (main controller) yang mengatur alur tampilan, inisialisasi komponen, serta navigasi antar bagian program.
+
+Selanjutnya, package Model digunakan untuk merepresentasikan struktur data atau entitas yang berhubungan dengan basis data. Di dalamnya terdapat kelas-kelas seperti Akun.java, Pengguna.java, Pelatihan.java, PeranAdmin.java, dan sebagainya. Setiap kelas dalam package ini mencerminkan tabel dalam database dan digunakan untuk menyimpan serta memanipulasi data aplikasi.
+
+Package Service berfungsi sebagai lapisan logika bisnis (business logic layer). Di sini terdapat kelas seperti AkunService.java, PelatihanService.java, PenggunaService.java, dan SertifikatPelatihanService.java. Masing-masing kelas bertanggung jawab untuk melakukan operasi terhadap data model, seperti menyimpan, memperbarui, menghapus, atau mengambil data dari database melalui proses CRUD.
+
+Sementara itu, package View berisi kumpulan kelas GUI (Graphical User Interface) yang dibuat menggunakan Java Swing, seperti AjukanBantuan.java, HomeAdmin.java, Login.java, SertifikatDanDataDiri.java, dan lain-lain. Package ini menjadi lapisan presentasi yang berinteraksi langsung dengan pengguna melalui tampilan antarmuka.
+
+Terakhir, terdapat folder Libraries yang berisi berbagai dependensi eksternal seperti mysql-connector, jakarta-persistence, dan jcalendar, yang digunakan untuk mendukung koneksi database, pengelolaan entitas JPA, serta tampilan elemen antarmuka tambahan seperti kalender.
+
+Secara keseluruhan, struktur ini mencerminkan arsitektur yang terorganisasi dengan baik, di mana setiap package memiliki tanggung jawab spesifik sesuai dengan prinsip MVC (Model-View-Controller) yang memisahkan logika bisnis, tampilan, dan data agar pengembangan aplikasi menjadi lebih efisien dan terstruktur.
+
+## 🔀Flowchart & Usecase
+
+Tautan berikut menyajikan flowchart dan use case diagram yang menggambarkan alur sistem serta mendukung penjelasan konsep aplikasi kami secara keseluruhan.
+https://drive.google.com/file/d/1a9cG1KJgOj3enEn2uNvb2ZsSyagJywyZ/view?usp=sharing
+
+## 📑Slide Decks
+
+Tautan berikut berisi slide presentasi (slide decks) yang menampilkan ringkasan poin-poin utama dari program dan fitur aplikasi kami.
+
+https://www.canva.com/design/DAG3PD6ZTUY/V8bZersN6UzInXkOJcB1xw/edit?utm_content=DAG3PD6ZTUY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+## 📱Penjelasan Alur Program (Graphical User Interface / GUI)
+
+### Home Page/Halaman Utama
+
+Halaman Home FINCARE merupakan tampilan awal aplikasi yang berfungsi sebagai gerbang utama bagi pengguna untuk mengakses sistem. Pada halaman ini terdapat dua tombol utama, yaitu Login dan Registrasi.
+- Login digunakan oleh pengguna atau admin yang sudah memiliki akun untuk masuk ke sistem dan mengelola data sesuai perannya.
+- Registrasi berfungsi untuk pendaftaran akun baru, di mana pengguna dapat mengisi data diri untuk memperoleh akses ke sistem FINCARE, termasuk layanan pengajuan bantuan, pelatihan, dan verifikasi sertifikat.
+
+<img width="1593" height="1243" alt="image" src="https://github.com/user-attachments/assets/fcb051e0-bd08-4449-b358-e4272f1b21e5" />
+
+### Halaman Login
+
+Halaman Login FINCARE berfungsi sebagai pintu masuk utama ke dalam sistem aplikasi bagi pengguna maupun admin yang telah terdaftar. Pada halaman ini, pengguna diminta untuk memasukkan alamat email dan password yang terdaftar di database untuk dapat mengakses fitur sesuai hak aksesnya.
+
+<img width="1589" height="1243" alt="image" src="https://github.com/user-attachments/assets/536ecded-306f-4519-9abd-f8a8e15fcbaf" />
+
+### Halaman Registrasi
+
+Halaman Registrasi FINCARE berfungsi sebagai formulir pendaftaran bagi pengguna baru yang ingin membuat akun untuk mengakses sistem. Pada halaman ini, pengguna diminta untuk mengisi data pribadi seperti NIK, Nama, Email, Password, Penghasilan, Pekerjaan, dan Alamat secara lengkap.
+
+Setelah semua data diisi dengan benar dan tombol “Registrasi” ditekan, sistem akan menyimpan informasi pengguna ke dalam database, kemudian menampilkan pesan konfirmasi “Registrasi berhasil. Silakan login.” yang menandakan proses pendaftaran telah berhasil dilakukan.
+
+Selain itu, terdapat tombol “Kembali” yang memungkinkan pengguna untuk kembali ke halaman login jika sudah memiliki akun.
+
+<img width="1593" height="1239" alt="image" src="https://github.com/user-attachments/assets/38319fa1-16b3-4490-a5ef-90f9c7f5a356" />
+
+## 👤Login Pengguna
+
+Halaman Login Pengguna merupakan gerbang utama bagi pengguna untuk mengakses sistem FINCARE. Pada halaman ini, pengguna diminta untuk memasukkan email dan password yang telah didaftarkan sebelumnya. Setelah data diverifikasi oleh sistem, pengguna akan menerima notifikasi berupa pesan sambutan seperti “Hai [nama pengguna], selamat datang di Fincare!” yang menandakan bahwa proses login berhasil. Fitur ini berfungsi untuk memastikan keamanan akses setiap pengguna, agar hanya akun yang valid dan terdaftar yang dapat masuk ke sistem.
+
+<img width="1584" height="1248" alt="image" src="https://github.com/user-attachments/assets/2e627917-5ff6-4c01-af83-452dc5d4f149" />
+
+### Halaman Home (Pengguna)
+
+Halaman Home Pengguna FINCARE merupakan tampilan utama yang muncul setelah pengguna berhasil login ke sistem. Pada halaman ini, pengguna dapat mengakses berbagai fitur utama aplikasi yang mendukung pengelolaan bantuan keuangan dan pelatihan secara digital dan transparan.
+
+Fitur-fitur utama yang tersedia di halaman ini antara lain:
+- Ajukan Bantuan → digunakan untuk mengajukan permohonan bantuan keuangan sesuai kebutuhan pengguna.
+- Pilih Pelatihan → memungkinkan pengguna memilih jenis pelatihan yang ingin diikuti sesuai bidang dan keterampilan yang diinginkan.
+- Upload Sertifikat → berfungsi untuk mengunggah sertifikat hasil pelatihan sebagai bukti partisipasi.
+- Lihat Insentif → menampilkan informasi mengenai insentif atau bantuan finansial yang diterima pengguna.
+
+Selain itu, terdapat tombol Profil Saya untuk melihat data pribadi pengguna, dan tombol Log Out untuk keluar dari sistem.
+
+<img width="1590" height="1253" alt="image" src="https://github.com/user-attachments/assets/6ee94afd-5ed7-49d4-a3bc-53b23728b336" />
+
+### Halaman Pengajuan Bantuan (Pengguna)
+
+Halaman Ajukan Bantuan pada aplikasi FINCARE berfungsi untuk memfasilitasi pengguna dalam mengajukan permohonan bantuan keuangan atau pelatihan sesuai bidang yang diminati. Pengguna dapat mengisi data seperti bidang, alasan pengajuan, dan tanggal pengajuan sebelum mengirimkannya melalui tombol OK. Setelah pengajuan dikirim, sistem akan menampilkan notifikasi bahwa permohonan berhasil diajukan.
+
+<img width="1595" height="1250" alt="image" src="https://github.com/user-attachments/assets/90af91f6-fa1e-448c-9699-0be872127633" />
+
+Setelah pengguna mengisi data pengajuan bantuan dan menekan tombol OK, sistem akan menampilkan data tersebut ke dalam tabel dengan status awal “MENUNGGU” seperti yang terlihat pada gambar ini. Hal ini menunjukkan bahwa pengajuan telah berhasil dikirim dan menunggu proses verifikasi dari admin. Pengguna juga dapat melihat kembali detail pengajuan yang sudah dibuat, memperbarui tampilan data dengan tombol Refresh, atau membatalkan pengajuan jika diperlukan melalui tombol Batalkan Pengajuan.
+
+<img width="1601" height="1243" alt="image" src="https://github.com/user-attachments/assets/af9dbe74-8358-4656-9a66-096f6727023b" />
+
+### Halaman Profil Pengguna (Sebelum pengajuan diterima dan beli pelatihan)
+
+Halaman Profil Pengguna menampilkan data pribadi pengguna yang telah terdaftar di sistem, seperti NIK, nama, email, penghasilan, pekerjaan, alamat, dan password. Pada tahap ini, pengguna belum memiliki transaksi atau pelatihan yang dibeli sehingga bagian Riwayat Pembelian masih kosong. Informasi saldo pada bagian atas juga menunjukkan Rp0, menandakan bahwa pengguna belum menerima bantuan atau insentif apa pun.
+
+<img width="1580" height="1246" alt="image" src="https://github.com/user-attachments/assets/8c7eaa5b-37ad-4acd-8552-dbcf90309393" />
+
+### Halaman Beli Pelatihan Pengguna (Sebelum pengajuan diterima)
+
+Halaman Pilih Pelatihan memungkinkan pengguna untuk menelusuri dan memilih berbagai program pelatihan yang tersedia berdasarkan bidang yang diminati. Pada tahap ini, sistem menampilkan daftar pelatihan lengkap dengan judul, lembaga penyelenggara, periode pelatihan, dan harga. Namun, jika pengguna mencoba membeli pelatihan sebelum pengajuannya disetujui oleh admin, sistem akan menampilkan pesan peringatan “Pengajuan belum DITERIMA. Tidak bisa membeli pelatihan.” Mekanisme ini berfungsi sebagai validasi agar hanya pengguna yang telah diterima pengajuannya yang dapat melanjutkan ke tahap pembelian pelatihan, sehingga prosesnya tetap teratur dan sesuai prosedur.
+
+<img width="1591" height="1247" alt="image" src="https://github.com/user-attachments/assets/89206be2-f9b3-49d8-a645-1ed3b425dba8" />
+
+### Halaman Lihat Insentif (Pengguna)
+
+Halaman Lihat Insentif berfungsi untuk menampilkan data pencairan bantuan atau insentif yang diterima oleh pengguna setelah menyelesaikan proses pelatihan. Tabel di bagian tengah halaman akan memuat informasi seperti ID transaksi, jumlah insentif, tanggal pencairan, dan keterangan setelah data tersedia. Pada tahap ini, karena pengguna belum menyelesaikan pelatihan atau belum disetujui untuk pencairan, tabel masih kosong. Tombol “Cairkan Insentif” disediakan agar pengguna dapat melakukan permintaan pencairan dana setelah memenuhi semua persyaratan yang berlaku.
+
+<img width="1591" height="1245" alt="image" src="https://github.com/user-attachments/assets/73969a28-cda6-42c2-a625-c4d79adac9a7" />
+
+## 💫Login Admin
+
+Halaman Login Admin memiliki tampilan yang serupa dengan login pengguna, namun berfungsi khusus untuk memberikan akses kepada pihak admin dalam mengelola sistem FINCARE. Admin memasukkan email dan password yang telah terdaftar pada database, dan setelah berhasil diverifikasi, sistem akan menampilkan pesan sambutan seperti “Halo Admin [nama admin]” sebagai tanda login berhasil. Melalui login ini, admin akan diarahkan ke dashboard khusus yang berisi fitur-fitur pengelolaan, seperti verifikasi pengajuan bantuan, pengelolaan data pelatihan, sertifikat, hingga pencairan insentif.
+
+<img width="1590" height="1242" alt="image" src="https://github.com/user-attachments/assets/76d8890f-2d92-40ed-9d36-4dcd3cf6c573" />
+
+### Halaman Home (Admin)
+
+Halaman Home Admin merupakan pusat kendali bagi administrator dalam sistem FINCARE. Setelah berhasil login, admin akan diarahkan ke halaman ini yang menampilkan empat fitur utama, yaitu Kelola Pelatihan, Verifikasi Pengajuan, Verifikasi Sertifikat, dan Daftar Insentif. Melalui fitur-fitur tersebut, admin dapat melakukan pengelolaan data pelatihan, memverifikasi pengajuan bantuan dari pengguna, memastikan keabsahan sertifikat pelatihan, serta mengatur daftar dan pencairan insentif. Selain itu, terdapat tombol Log Out di pojok kanan atas yang memungkinkan admin keluar dari sistem dengan aman.
+
+<img width="1594" height="1250" alt="image" src="https://github.com/user-attachments/assets/2be6121b-74df-4d24-a85e-c7889b1fabfd" />
+
+### Halaman Kelola Pelatihan (Admin)
+
+Halaman Kelola Pelatihan berfungsi sebagai tempat bagi admin untuk mengatur seluruh data pelatihan yang tersedia dalam sistem FINCARE. Pada halaman ini, admin dapat menambah, memperbarui, menghapus, dan menyegarkan (refresh) data pelatihan melalui form input yang mencakup judul pelatihan, lembaga pelatihan, periode pelaksanaan, dan harga pelatihan. Data pelatihan yang telah dimasukkan akan ditampilkan dalam tabel di bagian bawah halaman agar mudah dipantau dan dikelola. Selain itu, terdapat kolom pencarian di bagian atas yang memudahkan admin untuk menemukan pelatihan tertentu secara cepat.
+
+<img width="1566" height="1253" alt="image" src="https://github.com/user-attachments/assets/79285df9-1f05-4534-8326-da0db03a804d" />
+
+### Halaman Kelola Pelatihan (Create)
+
+Pada halaman Kelola Pelatihan (Create), admin dapat menambahkan data pelatihan baru ke dalam sistem FINCARE. Admin perlu mengisi beberapa kolom seperti Judul Pelatihan, Lembaga Pelatihan, Periode Pelaksanaan, dan Harga Pelatihan. Setelah semua data terisi dengan benar, admin menekan tombol “Tambah”, dan sistem akan otomatis menyimpan data pelatihan baru ke dalam database.
+
+Jika proses berhasil, akan muncul notifikasi “Pelatihan ditambahkan” sebagai tanda bahwa data baru telah tersimpan dengan sukses.
+
+<img width="1574" height="1238" alt="image" src="https://github.com/user-attachments/assets/fbb92782-73d8-4838-beb3-0d21bba580ac" />
+
+### Halaman Kelola Pelatihan (Update)
+
+Pada halaman Kelola Pelatihan (Update), admin dapat memperbarui atau mengubah data pelatihan yang sudah ada di sistem. Proses ini dilakukan dengan cara memilih data pelatihan dari tabel, lalu mengedit informasi seperti judul pelatihan, lembaga pelatihan, periode pelaksanaan, maupun harga pelatihan pada kolom yang tersedia.
+
+Admin juga dapat menggunakan fitur kalender (date picker) untuk memudahkan pemilihan tanggal periode pelatihan secara akurat. Setelah melakukan perubahan, admin menekan tombol “Perbarui” untuk menyimpan pembaruan tersebut ke dalam database.
+
+<img width="1583" height="1261" alt="image" src="https://github.com/user-attachments/assets/74c2d3c3-f76a-4155-87b7-731d0704b25d" />
+
+Setelah admin melakukan perubahan data pada form input dan menekan tombol “Perbarui”, sistem akan memproses pembaruan tersebut ke dalam database. Jika proses berhasil, muncul notifikasi “Pelatihan diperbarui” sebagai tanda bahwa data pelatihan telah berhasil diubah.
+
+<img width="1577" height="1247" alt="image" src="https://github.com/user-attachments/assets/1d64b520-acbd-4eb2-8aa7-ffbe1813992b" />
+
+### Halaman Kelola Pelatihan (Delete)
+Pada halaman Kelola Pelatihan (Delete), admin memiliki kemampuan untuk menghapus data pelatihan yang sudah tidak diperlukan dari sistem. Proses penghapusan ini dilakukan dengan cara memilih baris data pelatihan yang ingin dihapus pada tabel daftar pelatihan. Setelah baris dipilih, admin dapat menekan tombol “Hapus” untuk menghapus data tersebut dari database.
+
+Sebelum proses penghapusan, sistem akan menampilkan data pelatihan yang dipilih pada kolom input seperti Judul Pelatihan, Lembaga Pelatihan, Periode, dan Harga Pelatihan untuk memastikan bahwa admin menghapus data yang benar. Setelah tombol “Hapus” ditekan, sistem secara otomatis akan memproses permintaan penghapusan di backend dan memperbarui tabel pelatihan.
+
+<img width="1582" height="1243" alt="SEBELUM DIHAPUS" src="https://github.com/user-attachments/assets/a8fb3247-4d66-4ab4-912e-39c2de7009f5" />
+
+Jika proses berhasil, maka akan muncul notifikasi informasi berupa pesan pop-up bertuliskan “Pelatihan dihapus.” sebagai tanda bahwa data pelatihan telah berhasil dihapus dari database.
+
+<img width="1576" height="1245" alt="PESAN BERHASIL" src="https://github.com/user-attachments/assets/8e278945-5193-4065-88d7-edd774d239f1" />
+
+Setelah itu, tabel daftar pelatihan akan diperbarui secara otomatis, dan data yang telah dihapus tidak akan lagi muncul di dalam tabel.
+
+<img width="1562" height="1251" alt="SESUDAH DIHAPUS" src="https://github.com/user-attachments/assets/9d1e6d5b-ca4d-47bd-b34c-2a502aac36b0" />
+
+Fitur ini memudahkan admin dalam melakukan manajemen data pelatihan agar database tetap terorganisir dan hanya berisi data yang relevan atau masih aktif.
+
+### Halaman Kelola Pelatihan (Search)
+
+Pada halaman Kelola Pelatihan (Search), admin dapat mencari data pelatihan dengan cepat menggunakan kolom pencarian di bagian atas halaman. Admin cukup mengetikkan kata kunci tertentu, seperti judul pelatihan, lembaga, atau bidang pelatihan, lalu sistem akan menampilkan hasil pencarian yang sesuai pada tabel di bawahnya.
+
+Fitur pencarian ini memudahkan admin dalam menemukan dan memeriksa data pelatihan tertentu tanpa harus menelusuri seluruh daftar.
+
+<img width="1571" height="1239" alt="image" src="https://github.com/user-attachments/assets/df178cad-7e2a-432b-b913-a91b88688e21" />
+
+### Halaman Verifikasi Pengajuan (Admin)
+
+Halaman Verifikasi Pengajuan berfungsi bagi admin untuk melakukan pemeriksaan dan validasi terhadap pengajuan bantuan yang diajukan oleh pengguna. Pada halaman ini, admin dapat melihat daftar seluruh pengajuan beserta nama pengguna, bidang yang diminati, tanggal pengajuan, dan statusnya.
+
+<img width="1588" height="1245" alt="image" src="https://github.com/user-attachments/assets/b7a6c5a2-ee51-4411-b686-ca27b410074c" />
+
+Pada tahap lanjutan halaman Verifikasi Pengajuan, admin dapat melakukan pencarian lebih spesifik terhadap data pengajuan pengguna dengan mengetikkan nama atau bidang yang ingin diverifikasi di kolom pencarian. Setelah data muncul, sistem akan menampilkan informasi lengkap seperti nama, NIK, bidang yang diajukan, tanggal pengajuan, dan status saat ini.
+
+<img width="1595" height="1251" alt="image" src="https://github.com/user-attachments/assets/2774b33b-e0e4-42ae-a4b8-883720e7a076" />
+
+setelah admin meninjau data pengguna dan alasan pengajuan, admin dapat memberikan keputusan akhir terhadap status pengajuan tersebut. Ketika tombol “Diterima” ditekan, sistem secara otomatis memperbarui status pengajuan menjadi DITERIMA dan menampilkan notifikasi konfirmasi berupa pesan “Status diubah ke DITERIMA”.
+
+<img width="1597" height="1255" alt="image" src="https://github.com/user-attachments/assets/7b4e00e1-6b2a-4df4-b87b-ef90f1956669" />
+
+Pada bagian ini, sistem Verifikasi Pengajuan menampilkan pesan peringatan ketika admin mencoba memperbarui data yang statusnya sudah disetujui sebelumnya. Setelah status pengajuan berubah menjadi DITERIMA, sistem tidak mengizinkan adanya perubahan ulang untuk menjaga integritas dan konsistensi data.
+
+Pesan notifikasi “Gagal memperbarui: Status sudah DITERIMA dan tidak boleh diubah.” muncul sebagai bentuk pengamanan logika sistem, agar keputusan final yang telah diverifikasi tidak dapat dimodifikasi tanpa alasan yang sah. Hal ini juga berfungsi untuk mencegah kesalahan input atau manipulasi data setelah proses verifikasi selesai.
+
+<img width="1595" height="1256" alt="image" src="https://github.com/user-attachments/assets/7af2485b-f9bd-4937-9c1e-349e7c5764b8" />
+
+Pada bagian ini sistem Verifikasi Pengajuan memperlihatkan bahwa meskipun status pengajuan yang sudah DITERIMA tidak dapat diubah kembali (sebagai bentuk pengamanan data), status yang sebelumnya DITOLAK justru masih dapat diperbarui menjadi DITERIMA.
+
+Hal ini dirancang agar admin tetap memiliki fleksibilitas dalam proses verifikasi, terutama jika setelah peninjauan ulang ditemukan bahwa pengguna sebenarnya memenuhi syarat atau telah melengkapi berkas yang sebelumnya kurang. Saat admin menekan tombol “Diterima” pada data yang berstatus DITOLAK, sistem akan menampilkan pesan konfirmasi “Status diubah ke DITERIMA” sebagai tanda bahwa pembaruan berhasil disimpan.
+
+<img width="1586" height="1247" alt="image" src="https://github.com/user-attachments/assets/899601cb-882d-4165-ac30-132ec35d60f0" />
+
+### Halaman Pengajuan Bantuan (Pengguna)
+
+Pada tahap ini, halaman Ajukan Bantuan menampilkan data pengajuan pengguna yang telah disetujui oleh admin. Status pengajuan yang sebelumnya MENUNGGU kini berubah menjadi DITERIMA, menandakan bahwa permohonan bantuan pengguna sudah diverifikasi dan disetujui untuk diproses lebih lanjut.
+
+<img width="1590" height="1249" alt="image" src="https://github.com/user-attachments/assets/a92268d2-ab13-40bd-ac48-2a3655c2d574" />
+
+### Halaman Profil Pengguna (Setelah pengajuan diterima)
+
+Pada tahap ini, halaman Profil Pengguna menampilkan kondisi setelah pengajuan bantuan pengguna telah diterima oleh admin. Perubahan yang terlihat adalah munculnya saldo bantuan sebesar Rp2.500.000 di bagian atas halaman, yang menandakan bahwa dana bantuan dari program telah resmi diberikan kepada pengguna dan siap digunakan untuk kegiatan pelatihan atau keperluan yang relevan.
+
+<img width="1589" height="1243" alt="image" src="https://github.com/user-attachments/assets/abd66eda-e543-44d3-861b-fe958c0473b2" />
+
+### Halaman Beli Pelatihan Pengguna (Setelah pengajuan diterima)
+
+Pada halaman Pilih Pelatihan ini, pengguna yang telah menerima bantuan dapat menggunakan saldo bantuannya untuk membeli pelatihan sesuai minat dan kebutuhan. Setelah memilih salah satu pelatihan dari daftar — dalam contoh ini Pelatihan Administrasi Digital yang diselenggarakan oleh LKP Admin Center dengan biaya sebesar Rp1.500.000 — pengguna menekan tombol “Beli Pelatihan” untuk melanjutkan transaksi.
+
+Sistem kemudian menampilkan pesan “Pembelian berhasil. Saldo terpotong.” sebagai konfirmasi bahwa proses pembelian telah sukses dan jumlah biaya pelatihan otomatis dikurangi dari saldo bantuan pengguna. Pesan ini juga menandakan bahwa data pembelian telah tercatat dan pelatihan tersebut akan muncul di bagian riwayat pembelian pada halaman profil pengguna.
+
+<img width="1587" height="1247" alt="image" src="https://github.com/user-attachments/assets/594367e6-057d-40c9-8549-172043bc5a17" />
+
+### Halaman Profil Pengguna (Setelah beli pelatihan)
+
+Pada tampilan Profil Pengguna setelah proses pembelian pelatihan, sistem FINCARE memperbarui data pengguna secara otomatis untuk menampilkan hasil transaksi terbaru. Di bagian atas halaman, saldo bantuan kini berkurang menjadi Rp1.000.000, karena sebelumnya pengguna telah menggunakan Rp1.500.000 untuk membeli pelatihan yang dipilih.
+
+Selain itu, pada bagian Riwayat Pembelian, kini muncul data pelatihan yang baru saja dibeli, yaitu Pelatihan Administrasi Digital yang diselenggarakan oleh LKP Admin Center dengan periode pelatihan 1 November 2025 dan harga sebesar Rp1.500.000. Informasi ini berfungsi sebagai bukti bahwa transaksi telah tercatat secara valid dan transparan dalam sistem.
+
+Melalui pembaruan ini, pengguna dapat dengan mudah memantau saldo tersisa serta pelatihan apa saja yang telah diikuti.
+
+<img width="1583" height="1245" alt="image" src="https://github.com/user-attachments/assets/ae2a9221-8b81-4277-a627-a8d07cdd73ff" />
+
+### Halaman Beli Pelatihan Pengguna (Misalnya beli pelatihan 2 kali)
+
+Pada tampilan Pilih Pelatihan ini, pengguna melakukan pembelian pelatihan untuk kedua kalinya setelah sebelumnya telah membeli satu pelatihan menggunakan saldo bantuannya. Setelah memilih pelatihan kedua, yaitu Pelatihan Cleaning Service Dasar dari LKP Bersih Mandiri dengan biaya Rp900.000, pengguna kembali menekan tombol “Beli Pelatihan” untuk melanjutkan transaksi.
+
+Sistem kemudian menampilkan pesan “Pembelian berhasil. Silakan cek riwayat pada menu Profil.”, yang menandakan bahwa transaksi berhasil diproses dan data pelatihan baru telah tercatat dalam sistem. Selain itu, saldo bantuan pengguna otomatis berkurang kembali sesuai harga pelatihan yang dibeli, memastikan setiap transaksi terekam secara transparan dan akurat.
+
+<img width="1575" height="1239" alt="image" src="https://github.com/user-attachments/assets/859a9a7b-46d8-4bd4-b063-c0df0c1cb615" />
+
+Pada tampilan Pilih Pelatihan ini, sistem FINCARE menampilkan kondisi ketika pengguna mencoba membeli pelatihan namun saldo bantuan tidak mencukupi. Setelah pengguna memilih Pelatihan Pertanian Cerdas yang diselenggarakan oleh LKP Tani Sejahtera dengan biaya sebesar Rp1.800.000, sistem melakukan pengecekan otomatis terhadap saldo bantuan yang tersisa.
+
+Karena saldo pengguna lebih kecil dari harga pelatihan, sistem langsung menampilkan pesan peringatan “Saldo tidak cukup untuk membeli pelatihan ini.” melalui jendela notifikasi berikon peringatan merah. Proses transaksi otomatis dibatalkan dan saldo pengguna tetap aman tanpa perubahan.
+
+<img width="1583" height="1241" alt="image" src="https://github.com/user-attachments/assets/1f99c92d-9b95-4ceb-aac2-58a51ec58a44" />
+
+### Halaman Upload Sertifikat (Pengguna)
+
+Pada tampilan Upload Sertifikat ini, pengguna diberikan fitur untuk mengunggah sertifikat pelatihan yang telah diselesaikan sebagai bukti keikutsertaan dalam program. Halaman ini menampilkan kolom input berupa tautan (link) yang mengarah ke penyimpanan online seperti Google Drive, tempat sertifikat pengguna disimpan. Setelah memasukkan tautan tersebut, pengguna dapat menekan tombol “OK” untuk mengonfirmasi pengunggahan.
+
+<img width="1590" height="1242" alt="image" src="https://github.com/user-attachments/assets/5bc7d801-33fc-4956-8658-0d910c9cb9a5" />
+
+Pada tahap ini, setelah pengguna memilih pelatihan yang relevan dan memasukkan tautan sertifikat, sistem FINCARE menampilkan notifikasi bahwa “Link sertifikat di-upload. Menunggu verifikasi.”. Pesan ini menandakan bahwa proses unggah telah berhasil dan data sertifikat pengguna telah tersimpan di sistem untuk selanjutnya diverifikasi oleh admin.
+
+Setelah sertifikat diunggah, data tersebut akan otomatis tercatat dalam tabel dengan keterangan status awal “Menunggu Verifikasi” beserta tanggal upload. Status ini akan diperbarui oleh admin setelah melakukan pengecekan terhadap validitas tautan dan keaslian sertifikat yang dikirimkan.
+
+<img width="1586" height="1239" alt="image" src="https://github.com/user-attachments/assets/b4032688-1106-4191-a0d5-16a29062048e" />
+
+Pada tahap ini, setelah pengguna menekan tombol “KLIK LINK DISINI!” pada halaman Upload Sertifikat sebelumnya, sistem FINCARE akan otomatis membuka tautan yang telah diunggah pengguna ke dalam browser (seperti Google Chrome). Tautan tersebut mengarah langsung ke file sertifikat yang disimpan di Google Drive.
+
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/09efefaa-264f-4df3-8d81-9455c4cefa77" />
+
+Pada tahap ini, ketika pengguna mencoba untuk mengunggah sertifikat baru, sistem FINCARE menampilkan pesan peringatan bahwa masih ada sertifikat dengan status “MENUNGGU”. Pesan ini berarti proses verifikasi dari sertifikat sebelumnya belum selesai dilakukan oleh admin, sehingga pengguna tidak diperbolehkan melakukan upload sertifikat baru sebelum status verifikasi sebelumnya selesai.
+
+<img width="1593" height="1253" alt="image" src="https://github.com/user-attachments/assets/0e933fa3-27c6-42d8-a736-b016ffa4782f" />
+
+### Halaman Lihat Insentif Pengguna (Sebelum sertifikat diverifikasi oleh admin)
+
+Pada tampilan ini, ketika pengguna mencoba membuka menu Lihat Insentif, sistem menampilkan pesan peringatan “Pilih insentif dulu” karena belum ada data insentif yang dapat ditampilkan. Hal ini terjadi karena sertifikat pengguna belum diverifikasi dan diterima oleh admin, sehingga proses pencairan insentif belum dapat dilakukan.
+
+<img width="1592" height="1255" alt="image" src="https://github.com/user-attachments/assets/76133412-1be9-4d86-9800-cf29e5b5dd14" />
+
+### Halaman Verifikasi Sertifikat (Admin)
+
+Pada tampilan ini, halaman Verifikasi Sertifikat digunakan oleh admin untuk memeriksa dan memverifikasi sertifikat yang telah diunggah oleh pengguna. Admin dapat mencari data sertifikat berdasarkan nama atau status verifikasi, seperti “MENUNGGU” atau “DITERIMA”. Dalam contoh ini, terlihat bahwa pengguna bernama Lestari Kirei memiliki sertifikat dengan status MENUNGGU, menandakan bahwa sertifikat tersebut masih menunggu persetujuan admin.
+
+<img width="1585" height="1251" alt="image" src="https://github.com/user-attachments/assets/3e512c99-e239-433e-bfea-f77ad28dbf6f" />
+
+Pada tampilan ini, admin sedang melakukan proses verifikasi sertifikat pengguna yang sebelumnya berstatus MENUNGGU. Ketika admin menekan tombol DITERIMA, sistem menampilkan jendela konfirmasi yang berisi pesan bahwa jika sertifikat ditetapkan sebagai diterima, maka insentif sebesar Rp3.500.000 akan dibuat untuk pengguna tersebut. Proses konfirmasi ini berfungsi sebagai langkah validasi agar admin dapat memastikan keputusan verifikasi sebelum sistem otomatis menghasilkan data insentif.
+
+<img width="1582" height="1244" alt="image" src="https://github.com/user-attachments/assets/c35dffd7-7eb8-4c2a-8044-a34c89666a9e" />
+
+Pada tampilan ini, proses verifikasi sertifikat oleh admin telah berhasil diselesaikan. Setelah admin menekan tombol Yes pada konfirmasi sebelumnya, sistem menampilkan pesan “Berhasil diset DITERIMA. Insentif dibuat.” yang menandakan bahwa sertifikat pengguna telah resmi diverifikasi dan disetujui. Secara otomatis, sistem juga membuat data insentif baru bagi pengguna yang bersangkutan sebagai bentuk penghargaan atas keberhasilan menyelesaikan pelatihan.
+
+<img width="1588" height="1239" alt="image" src="https://github.com/user-attachments/assets/320901ea-efaa-42bc-9e38-6668d1be1226" />
+
+### Halaman Upload Sertifikat Pengguna (Setelah sertifikat diverifikasi oleh admin)
+
+Pada tampilan ini, pengguna kembali ke halaman Upload Sertifikat untuk melihat status sertifikat yang telah diunggah sebelumnya. Setelah melalui proses verifikasi oleh admin, kini status sertifikat berubah menjadi DITERIMA, menandakan bahwa sertifikat tersebut telah disetujui dan divalidasi oleh pihak admin.
+
+<img width="1589" height="1259" alt="image" src="https://github.com/user-attachments/assets/ffbfe9d0-6737-437b-a394-842ff00331fd" />
+
+### Halaman Lihat Insentif Pengguna (Setelah sertifikat diverifikasi oleh admin)
+
+Pada tampilan ini, pengguna kembali ke halaman Lihat Insentif setelah sertifikat yang diunggah sebelumnya telah diterima oleh admin. Kini tabel pada halaman menampilkan data insentif baru dengan rincian jumlah sebesar Rp3.500.000, yang otomatis dibuat oleh sistem sebagai bentuk penghargaan atas kelulusan pelatihan pengguna. Kolom keterangan menjelaskan bahwa insentif ini muncul secara otomatis karena sertifikat telah diverifikasi dan disetujui oleh admin.
+
+<img width="1592" height="1246" alt="image" src="https://github.com/user-attachments/assets/e6c7f222-7502-466a-8ca6-20494c6e1e3f" />
+
+Pada tampilan ini, pengguna sedang melakukan proses pencairan insentif setelah sebelumnya sertifikatnya diterima oleh admin dan insentif otomatis muncul di daftar. Ketika pengguna menekan tombol “Cairkan Insentif”, sistem akan menampilkan jendela input untuk memasukkan nomor rekening tujuan. Langkah ini berfungsi agar dana insentif dapat dikirim ke rekening yang benar sesuai data yang dimasukkan oleh pengguna.
+
+<img width="1599" height="1248" alt="image" src="https://github.com/user-attachments/assets/15ab80e2-6c16-424f-90b1-bd28cb2bc47a" />
+
+Pada tampilan ini, proses pencairan insentif telah berhasil dilakukan oleh pengguna. Setelah pengguna memasukkan nomor rekening pada langkah sebelumnya, sistem menampilkan pesan konfirmasi berupa notifikasi “Insentif berhasil dicairkan ke rekening 084527429373”. Pesan ini menandakan bahwa transaksi pencairan dana insentif telah diproses dengan sukses oleh sistem dan dana akan dikirim ke rekening yang telah dimasukkan pengguna.
+
+<img width="1592" height="1247" alt="image" src="https://github.com/user-attachments/assets/19a6c038-2412-49af-b4b6-845e8a9a6562" />
+
+Pada tampilan ini, proses pencairan insentif telah selesai sepenuhnya dan hasilnya kini tercatat dalam sistem. Tabel menampilkan bahwa insentif dengan ID 19 sudah memiliki status “Sudah dicairkan”, dengan tanggal pencairan otomatis tercatat pada 3 November 2025. Kolom jumlah kini menunjukkan nilai Rp 0, yang menandakan bahwa dana insentif telah ditransfer ke rekening pengguna dan tidak ada saldo yang tersisa untuk dicairkan. Selain itu, kolom keterangan memberi informasi tambahan bahwa transaksi telah berhasil diselesaikan. Tampilan ini menjadi bukti akhir bahwa sistem Fincare berhasil mencatat, memproses, dan menyelesaikan transaksi insentif pengguna secara transparan dan terkelola dengan baik.
+
+<img width="1590" height="1241" alt="image" src="https://github.com/user-attachments/assets/f587fc57-7e2f-4650-85d6-b4d2e409357d" />
+
+### Halaman Lihat Insentif (Admin)
+
+Pada tampilan ini, halaman menunjukkan menu Lihat Insentif dari sisi admin, di mana admin dapat memantau seluruh data insentif pengguna, termasuk yang sudah dicairkan. Admin dapat melakukan pencarian berdasarkan nama pengguna melalui kolom pencarian di bagian atas untuk mempermudah pengecekan data. Dalam contoh ini, terlihat bahwa insentif atas nama Lestari Kirei telah memiliki status “Sudah dicairkan” dengan jumlah Rp 0,00 dan tanggal cair 3 November 2025, yang menandakan bahwa dana telah berhasil ditransfer kepada pengguna. Selain itu, data insentif lain seperti milik Tika Lestari juga tercatat lengkap dengan jumlah dan keterangan berbeda. Tampilan ini membantu admin dalam mengawasi riwayat insentif dan memastikan seluruh transaksi pencairan berjalan dengan baik serta tercatat secara transparan di sistem.
+
+<img width="1590" height="1253" alt="image" src="https://github.com/user-attachments/assets/c5f2e306-2a68-4558-9e81-b0ef414dd177" />
+
+
+
+
