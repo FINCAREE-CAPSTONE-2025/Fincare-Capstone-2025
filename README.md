@@ -105,7 +105,7 @@ Selain itu, terdapat tombol “Kembali” yang memungkinkan pengguna untuk kemba
 
 <img width="1593" height="1239" alt="image" src="https://github.com/user-attachments/assets/38319fa1-16b3-4490-a5ef-90f9c7f5a356" />
 
-## Login Pengguna
+## 👤Login Pengguna
 
 Halaman Login Pengguna merupakan gerbang utama bagi pengguna untuk mengakses sistem FINCARE. Pada halaman ini, pengguna diminta untuk memasukkan email dan password yang telah didaftarkan sebelumnya. Setelah data diverifikasi oleh sistem, pengguna akan menerima notifikasi berupa pesan sambutan seperti “Hai [nama pengguna], selamat datang di Fincare!” yang menandakan bahwa proses login berhasil. Fitur ini berfungsi untuk memastikan keamanan akses setiap pengguna, agar hanya akun yang valid dan terdaftar yang dapat masuk ke sistem.
 
@@ -153,7 +153,7 @@ Halaman Lihat Insentif berfungsi untuk menampilkan data pencairan bantuan atau i
 
 <img width="1591" height="1245" alt="image" src="https://github.com/user-attachments/assets/73969a28-cda6-42c2-a625-c4d79adac9a7" />
 
-## Login Admin
+## 💫Login Admin
 
 Halaman Login Admin memiliki tampilan yang serupa dengan login pengguna, namun berfungsi khusus untuk memberikan akses kepada pihak admin dalam mengelola sistem FINCARE. Admin memasukkan email dan password yang telah terdaftar pada database, dan setelah berhasil diverifikasi, sistem akan menampilkan pesan sambutan seperti “Halo Admin [nama admin]” sebagai tanda login berhasil. Melalui login ini, admin akan diarahkan ke dashboard khusus yang berisi fitur-fitur pengelolaan, seperti verifikasi pengajuan bantuan, pengelolaan data pelatihan, sertifikat, hingga pencairan insentif.
 
