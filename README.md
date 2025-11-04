@@ -110,7 +110,7 @@ Pada aplikasi ini diterapkan Jakarta Persistence API (JPA) sebagai penghubung an
 
 <img width="1692" height="1487" alt="image" src="https://github.com/user-attachments/assets/113aa6fc-192e-4b7b-831a-3ac08c789a2c" />
 
-## 🗂️Struktur Packages
+## 🗂️Struktur Packages MVC
 ![Struktur Package1](https://github.com/user-attachments/assets/6e914395-4c60-456e-a0fe-1786d49bced3)
 ![Struktur Package2](https://github.com/user-attachments/assets/ebbd2a5e-5f54-498e-aaa7-64b16ea17cf5)
 ![Struktur Package3](https://github.com/user-attachments/assets/4201f172-274a-4782-87fd-592fd31fb30f)
