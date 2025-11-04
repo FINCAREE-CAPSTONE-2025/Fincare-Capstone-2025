@@ -71,6 +71,20 @@ Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programmi
 ![Struktur Package2](https://github.com/user-attachments/assets/ebbd2a5e-5f54-498e-aaa7-64b16ea17cf5)
 ![Struktur Package3](https://github.com/user-attachments/assets/4201f172-274a-4782-87fd-592fd31fb30f)
 
+Struktur package pada project Aplikasi Fincare dibangun dengan pendekatan berbasis layer (layered architecture) untuk memisahkan tanggung jawab setiap komponen aplikasi agar mudah dikelola, dipahami, dan dikembangkan. Di dalam Source Packages, terdapat beberapa package utama, yaitu App, Model, Service, dan View, yang masing-masing memiliki perannya sendiri.
+
+Package App berisi kelas utama seperti Main.java, DisplayGif.java, serta kelas pendukung seperti MenuAdmin.java dan MenuPengguna.java. Package ini berfungsi sebagai pengendali utama aplikasi (main controller) yang mengatur alur tampilan, inisialisasi komponen, serta navigasi antar bagian program.
+
+Selanjutnya, package Model digunakan untuk merepresentasikan struktur data atau entitas yang berhubungan dengan basis data. Di dalamnya terdapat kelas-kelas seperti Akun.java, Pengguna.java, Pelatihan.java, PeranAdmin.java, dan sebagainya. Setiap kelas dalam package ini mencerminkan tabel dalam database dan digunakan untuk menyimpan serta memanipulasi data aplikasi.
+
+Package Service berfungsi sebagai lapisan logika bisnis (business logic layer). Di sini terdapat kelas seperti AkunService.java, PelatihanService.java, PenggunaService.java, dan SertifikatPelatihanService.java. Masing-masing kelas bertanggung jawab untuk melakukan operasi terhadap data model, seperti menyimpan, memperbarui, menghapus, atau mengambil data dari database melalui proses CRUD.
+
+Sementara itu, package View berisi kumpulan kelas GUI (Graphical User Interface) yang dibuat menggunakan Java Swing, seperti AjukanBantuan.java, HomeAdmin.java, Login.java, SertifikatDanDataDiri.java, dan lain-lain. Package ini menjadi lapisan presentasi yang berinteraksi langsung dengan pengguna melalui tampilan antarmuka.
+
+Terakhir, terdapat folder Libraries yang berisi berbagai dependensi eksternal seperti mysql-connector, jakarta-persistence, dan jcalendar, yang digunakan untuk mendukung koneksi database, pengelolaan entitas JPA, serta tampilan elemen antarmuka tambahan seperti kalender.
+
+Secara keseluruhan, struktur ini mencerminkan arsitektur yang terorganisasi dengan baik, di mana setiap package memiliki tanggung jawab spesifik sesuai dengan prinsip MVC (Model-View-Controller) yang memisahkan logika bisnis, tampilan, dan data agar pengembangan aplikasi menjadi lebih efisien dan terstruktur.
+
 ## 🔀Flowchart & Usecase
 
 Tautan berikut menyajikan flowchart dan use case diagram yang menggambarkan alur sistem serta mendukung penjelasan konsep aplikasi kami secara keseluruhan.
