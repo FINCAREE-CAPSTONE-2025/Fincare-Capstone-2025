@@ -67,6 +67,9 @@ Pengguna dapat memantau status pencairan insentif secara langsung, apakah masih 
 Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programming / OOP) merupakan dasar dalam membangun sistem yang terstruktur dan mudah dikelola. Konsep ini membantu pengembang untuk membuat program yang efisien, aman, serta mudah dikembangkan di masa mendatang.
 
 ## 🗂️Struktur Package
+![Struktur Package1](https://github.com/user-attachments/assets/0f92608f-145d-463a-8c6a-e5bea8c4a737)
+![Struktur Package2](https://github.com/user-attachments/assets/34c8c0d2-f3a8-42ac-a4eb-f7892f58008a)
+![Struktur Package3](https://github.com/user-attachments/assets/fefdbf0b-c318-45a8-ad34-ace9cd27c964)
 
 ## 🔀Flowchart & Usecase
 
