@@ -66,6 +66,18 @@ Pengguna dapat memantau status pencairan insentif secara langsung, apakah masih 
 
 Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programming / OOP) merupakan dasar dalam membangun sistem yang terstruktur dan mudah dikelola. Konsep ini membantu pengembang untuk membuat program yang efisien, aman, serta mudah dikembangkan di masa mendatang.
 
+## Penerapan Nilai Tambah
+
+### Singleton
+
+Penerapan pola Singleton dipakai karena kita butuh satu pintu utama untuk mengelola koneksi ke database. Kalau setiap bagian aplikasi membuat koneksi sendiri-sendiri, itu boros memori dan bisa bikin aplikasi berat atau malah error karena terlalu banyak koneksi terbuka. Dengan Singleton, EntityManagerFactory hanya dibuat satu kali, lalu seluruh proses akan memakai instance yang sama. Cara ini lebih rapi, lebih hemat sumber daya, dan memudahkan pengaturan lifecycle koneksi mulai dari pembuatan sampai penutupan. Selain itu, pendekatan ini juga mencegah konflik atau inkonsistensi data karena semua query berjalan lewat jalur yang sama. Jadi intinya, kita pakai Singleton supaya koneksi database stabil, efisien, dan lebih terkontrol.
+
+<img width="1371" height="1047" alt="image" src="https://github.com/user-attachments/assets/870d8b47-77a6-4e4c-8821-397aacfbcee8" />
+
+### JPA
+
+
+
 ## 🗂️Struktur Package
 ![Struktur Package1](https://github.com/user-attachments/assets/6e914395-4c60-456e-a0fe-1786d49bced3)
 ![Struktur Package2](https://github.com/user-attachments/assets/ebbd2a5e-5f54-498e-aaa7-64b16ea17cf5)
