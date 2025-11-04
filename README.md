@@ -209,6 +209,21 @@ Setelah admin melakukan perubahan data pada form input dan menekan tombol “Per
 <img width="1577" height="1247" alt="image" src="https://github.com/user-attachments/assets/1d64b520-acbd-4eb2-8aa7-ffbe1813992b" />
 
 ### Halaman Kelola Pelatihan (Delete)
+Pada halaman Kelola Pelatihan (Delete), admin memiliki kemampuan untuk menghapus data pelatihan yang sudah tidak diperlukan dari sistem. Proses penghapusan ini dilakukan dengan cara memilih baris data pelatihan yang ingin dihapus pada tabel daftar pelatihan. Setelah baris dipilih, admin dapat menekan tombol “Hapus” untuk menghapus data tersebut dari database.
+
+Sebelum proses penghapusan, sistem akan menampilkan data pelatihan yang dipilih pada kolom input seperti Judul Pelatihan, Lembaga Pelatihan, Periode, dan Harga Pelatihan untuk memastikan bahwa admin menghapus data yang benar. Setelah tombol “Hapus” ditekan, sistem secara otomatis akan memproses permintaan penghapusan di backend dan memperbarui tabel pelatihan.
+
+<img width="1582" height="1243" alt="SEBELUM DIHAPUS" src="https://github.com/user-attachments/assets/a8fb3247-4d66-4ab4-912e-39c2de7009f5" />
+
+Jika proses berhasil, maka akan muncul notifikasi informasi berupa pesan pop-up bertuliskan “Pelatihan dihapus.” sebagai tanda bahwa data pelatihan telah berhasil dihapus dari database.
+
+<img width="1576" height="1245" alt="PESAN BERHASIL" src="https://github.com/user-attachments/assets/8e278945-5193-4065-88d7-edd774d239f1" />
+
+Setelah itu, tabel daftar pelatihan akan diperbarui secara otomatis, dan data yang telah dihapus tidak akan lagi muncul di dalam tabel.
+
+<img width="1562" height="1251" alt="SESUDAH DIHAPUS" src="https://github.com/user-attachments/assets/9d1e6d5b-ca4d-47bd-b34c-2a502aac36b0" />
+
+Fitur ini memudahkan admin dalam melakukan manajemen data pelatihan agar database tetap terorganisir dan hanya berisi data yang relevan atau masih aktif.
 
 ### Halaman Kelola Pelatihan (Search)
 
